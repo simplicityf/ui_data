@@ -268,5 +268,185 @@ qa_data = [
             },
             "Diploma Programs": "1 to 2 years"
         }
+    },
+    {
+        "question": "Research Centers and Institutes",
+        "answer": [
+            "Institute for Advanced Medical Research and Training (IAMRAT): Focuses on multidisciplinary medical research, including infectious diseases and genetics. Units include Ethics Committee, Drug and Cancer Research, Environmental Sciences & Toxicology, Genetics & Cancer, etc.",
+            "Institute of Child Health: Conducts research related to child health and development.",
+            "Institute of Cardiovascular Diseases: Focuses on cardiovascular health research.",
+            "Institute of Infectious Diseases: Related research is conducted under IAMRAT.",
+            "Institute of African Studies: Conducts research on African cultures, history, and social issues.",
+            "Centre for General Studies (CGS): Provides foundational education and research support across disciplines.",
+            "Yoruba Language Centre: Focuses on Yoruba language and cultural research.",
+            "Nigerian Institute of Social and Economic Research (NISER): Conducts social and economic policy research, headquartered at the University of Ibadan."
+        ]
+    },
+    {
+        "question": "Accreditation Status of Courses at University of Ibadan",
+        "answer": {
+            "Faculty of Agriculture and Forestry": {
+                "Agriculture": "Full accreditation",
+                "Fisheries and Aquaculture": "Interim accreditation",
+                "Forestry and Wildlife Management": "Interim accreditation"
+            },
+            "Faculty of Arts": {
+                "Arabic": "Full accreditation",
+                "Communication and Language Arts": "Full accreditation",
+                "History": "Full accreditation",
+                "Philosophy": "Full accreditation",
+                "Religious Studies": "Full accreditation"
+            },
+            "Faculty of Education": {
+                "Adult Education": "Full accreditation",
+                "Educational Management": "Full accreditation",
+                "Guidance and Counselling": "Full accreditation",
+                "Library and Information Science": "Full accreditation"
+            },
+            "College of Medicine": {
+                "Anatomy": "Full accreditation",
+                "Biochemistry": "Full accreditation",
+                "Community Medicine": "Full accreditation",
+                "Medicine and Surgery": "Full accreditation",
+                "Veterinary Medicine": "Full accreditation"
+            },
+            "Faculty of Pharmacy": {
+                "Pharmacy": "Full accreditation"
+            },
+            "Faculty of Science": {
+                "Biochemistry": "Full accreditation",
+                "Botany": "Full accreditation",
+                "Chemistry": "Full accreditation",
+                "Computer Science": "Full accreditation",
+                "Geology": "Full accreditation",
+                "Mathematics": "Full accreditation",
+                "Microbiology": "Full accreditation",
+                "Physics": "Full accreditation",
+                "Statistics": "Full accreditation",
+                "Zoology": "Full accreditation"
+            },
+            "Faculty of Social Sciences": {
+                "Economics": "Full accreditation",
+                "Geography": "Full accreditation",
+                "Mass Communication": "Full accreditation",
+                "Political Science": "Full accreditation",
+                "Psychology": "Full accreditation",
+                "Sociology": "Full accreditation"
+            },
+            "Faculty of Law": {
+                "Law": "Full accreditation"
+            },
+            "Faculty of Technology": {
+                "Agricultural and Environmental Engineering": "Full accreditation",
+                "Civil Engineering": "Full accreditation",
+                "Electrical and Electronics Engineering": "Full accreditation",
+                "Food Technology": "Full accreditation",
+                "Industrial and Production Engineering": "Full accreditation",
+                "Mechanical Engineering": "Full accreditation",
+                "Petroleum Engineering": "Full accreditation"
+            },
+            "Faculty of Environmental Design and Management": {
+                "Architecture": "Full accreditation",
+                "Estate Management": "Full accreditation",
+                "Urban and Regional Planning": "Full accreditation"
+            },
+            "Distance Learning Centre": {
+                "B.A. History": "Accredited",
+                "B.Sc. Sociology": "Accredited",
+                "B.Sc. Computer Science": "Accredited",
+                "B.Ed. Adult Education": "Accredited",
+                "B.Ed. Guidance and Counselling": "Accredited",
+                "B.Ed. Educational Management": "Accredited",
+                "BLIS. Bachelor of Library and Information Science": "Accredited",
+                "B.A Communication and Language Arts": "Accredited",
+                "B.Sc. Statistics": "Accredited"
+            }
+        }
+    },
+    {
+        "question": "Notable Faculty Members at the University of Ibadan",
+        "answer": [
+            {
+                "name": "Salami I.A.",
+                "position": "Ag. Head of Department (Reader), Faculty of Education",
+                "specialization": "Early Childhood Education, Pre and Primary Mathematics Education, Educational Research",
+                "contact": "ia.salami@ui.edu.ng / snappy600@gmail.com"
+            },
+            {
+                "name": "Oduolowu, Esther Abiola",
+                "position": "Professor, Faculty of Education",
+                "specialization": "Education"
+            },
+            {
+                "name": "Babarinde Sikiru Adekola",
+                "position": "Professor, Faculty of Education",
+                "specialization": "Philosophy of Education"
+            },
+            {
+                "name": "Lawal, B. Olubode",
+                "position": "Professor, Faculty of Education",
+                "specialization": "Educational History and Policy"
+            },
+            {
+                "name": "Amosun, Moses Dele",
+                "position": "Senior Lecturer, Faculty of Education",
+                "specialization": "Education"
+            },
+            {
+                "name": "E.A. Emeke",
+                "position": "Professor",
+                "specialization": "Counselling Psychology and Educational Evaluation"
+            },
+            {
+                "name": "T. W. Yoloye",
+                "position": "Professor",
+                "specialization": "Science Education and Counselling Psychology"
+            },
+            {
+                "name": "M. A. Araromi",
+                "position": "Professor",
+                "specialization": "Language Education"
+            },
+            {
+                "name": "P.N. Okpala",
+                "position": "Professor",
+                "specialization": "Science Education and Educational Evaluation"
+            },
+            {
+                "name": "C.O. Onocha",
+                "position": "Professor",
+                "specialization": "Science Education and Educational Evaluation"
+            },
+            {
+                "name": "Ifeoma M. Isiugo-Abanihe",
+                "position": "Reader",
+                "specialization": "Language Education and Educational Evaluation"
+            },
+            {
+                "name": "J. A. Adegbile",
+                "position": "Professor",
+                "specialization": "Language Education and Educational Evaluation"
+            },
+            {
+                "name": "Olanike Kudirat Adeyemo",
+                "position": "Professor of Veterinary Public Health and Preventive Medicine",
+                "specialization": "Veterinary Public Health and Preventive Medicine"
+            },
+            {
+                "name": "Adebola O. Ogunbiyi",
+                "position": "Professor, College of Medicine",
+                "specialization": "Medicine"
+            },
+            {
+                "name": "Adesola Ogunniyi",
+                "position": "Professor, College of Medicine",
+                "specialization": "Medicine"
+            },
+            {
+                "name": "Solomon Kadiri",
+                "position": "Professor, College of Medicine",
+                "specialization": "Medicine"
+            }
+        ]
     }
 ]
