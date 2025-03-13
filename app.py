@@ -1,7 +1,15 @@
 from fastapi import FastAPI
-from typing import Dict, List
+from fastapi.middleware.cors import CORSMiddleware
 import uidata
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Data stored in-memory (or you can use a database)
 qa_data = uidata.qa_data
