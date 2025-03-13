@@ -1,6 +1,13 @@
-qa_data = [
+qa_keyword = [
     {
         "question": "Faculty of Agriculture and Forestry at the University of Ibadan",
+        "keywords": [
+            "faculty",
+            "and",
+            "agriculture",
+            "of",
+            "forestry"
+        ],
         "answer": [
             "Agricultural Economics",
             "Agricultural Extension Services & Rural Development",
@@ -14,6 +21,11 @@ qa_data = [
     },
     {
         "question": "Faculty of Arts at the University of Ibadan",
+        "keywords": [
+            "arts",
+            "of",
+            "faculty"
+        ],
         "answer": [
             "Adult Education",
             "Classical Studies",
@@ -43,6 +55,11 @@ qa_data = [
     },
     {
         "question": "Faculty of Education at the University of Ibadan",
+        "keywords": [
+            "education",
+            "of",
+            "faculty"
+        ],
         "answer": [
             "Adult Education",
             "Educational Management",
@@ -58,6 +75,11 @@ qa_data = [
     },
     {
         "question": "College of Medicine at the University of Ibadan",
+        "keywords": [
+            "college",
+            "of",
+            "medicine"
+        ],
         "answer": [
             "Anatomy",
             "Anesthesia",
@@ -84,6 +106,11 @@ qa_data = [
     },
     {
         "question": "Faculty of Pharmacy at the University of Ibadan",
+        "keywords": [
+            "of",
+            "pharmacy",
+            "faculty"
+        ],
         "answer": [
             "Clinical Pharmacy and Pharmacy Administration",
             "Pharmaceutical Chemistry",
@@ -95,6 +122,11 @@ qa_data = [
     },
     {
         "question": "Faculty of Science at the University of Ibadan",
+        "keywords": [
+            "of",
+            "science",
+            "faculty"
+        ],
         "answer": [
             "Archaeology and Anthropology",
             "Biochemistry",
@@ -112,6 +144,12 @@ qa_data = [
     },
     {
         "question": "Faculty of Social Sciences at the University of Ibadan",
+        "keywords": [
+            "of",
+            "sciences",
+            "social",
+            "faculty"
+        ],
         "answer": [
             "Economics",
             "Geography",
@@ -122,18 +160,34 @@ qa_data = [
     },
     {
         "question": "Faculty of Veterinary Medicine at the University of Ibadan",
+        "keywords": [
+            "of",
+            "medicine",
+            "veterinary",
+            "faculty"
+        ],
         "answer": [
             "Veterinary Medicine"
         ]
     },
     {
         "question": "Faculty of Law at the University of Ibadan",
+        "keywords": [
+            "of",
+            "law",
+            "faculty"
+        ],
         "answer": [
             "Law"
         ]
     },
     {
         "question": "Faculty of Technology at the University of Ibadan",
+        "keywords": [
+            "of",
+            "technology",
+            "faculty"
+        ],
         "answer": [
             "Agricultural and Environmental Engineering",
             "Civil Engineering",
@@ -147,6 +201,14 @@ qa_data = [
     },
     {
         "question": "Faculty of Environmental Design and Management at the University of Ibadan",
+        "keywords": [
+            "environmental",
+            "design",
+            "faculty",
+            "and",
+            "management",
+            "of"
+        ],
         "answer": [
             "Architecture",
             "Estate Management",
@@ -156,6 +218,11 @@ qa_data = [
     },
     {
         "question": "Faculty of Arts at the University of Ibadan",
+        "keywords": [
+            "arts",
+            "of",
+            "faculty"
+        ],
         "answer": [
             "European Studies",
             "Geography",
@@ -173,6 +240,13 @@ qa_data = [
     },
     {
         "question": "Faculty of Business & Social Sciences at the University of Ibadan",
+        "keywords": [
+            "faculty",
+            "social",
+            "sciences",
+            "business",
+            "of"
+        ],
         "answer": [
             "Agricultural Economics",
             "Economics",
@@ -181,6 +255,11 @@ qa_data = [
     },
     {
         "question": "Faculty of Engineering at the University of Ibadan",
+        "keywords": [
+            "of",
+            "engineering",
+            "faculty"
+        ],
         "answer": [
             "Agricultural Engineering",
             "Civil Engineering",
@@ -193,6 +272,13 @@ qa_data = [
     },
     {
         "question": "Faculty of Language & Cultural Studies at the University of Ibadan",
+        "keywords": [
+            "faculty",
+            "language",
+            "studies",
+            "cultural",
+            "of"
+        ],
         "answer": [
             "African Languages",
             "Arabic",
@@ -204,6 +290,12 @@ qa_data = [
     },
     {
         "question": "Faculty of Medicine & Health at the University of Ibadan",
+        "keywords": [
+            "of",
+            "health",
+            "medicine",
+            "faculty"
+        ],
         "answer": [
             "Anaesthesiology",
             "Dentistry",
@@ -219,6 +311,12 @@ qa_data = [
     },
     {
         "question": "Faculty of Science & Technology at the University of Ibadan",
+        "keywords": [
+            "of",
+            "technology",
+            "science",
+            "faculty"
+        ],
         "answer": [
             "Agronomy",
             "Animal Husbandry",
@@ -249,6 +347,10 @@ qa_data = [
     },
     {
         "question": "Diploma Courses",
+        "keywords": [
+            "courses",
+            "diploma"
+        ],
         "answer": [
             "Diploma in School Media (DSM)",
             "Wildlife Management",
@@ -261,6 +363,11 @@ qa_data = [
     },
     {
         "question": "Undergraduate Admission Requirements",
+        "keywords": [
+            "undergraduate",
+            "admission",
+            "requirements"
+        ],
         "answer": [
             "JAMB Cut-off Marks: The general JAMB cut-off mark for the University of Ibadan is 200 and above for all courses.",
             "O-Level Requirements: Candidates must have at least five (5) O-level credits in relevant subjects, including English and Mathematics. For some faculties like Medicine and Pharmacy, credits must be obtained in one sitting.",
@@ -270,6 +377,12 @@ qa_data = [
     },
     {
         "question": "Direct Entry Admission Requirements",
+        "keywords": [
+            "entry",
+            "admission",
+            "requirements",
+            "direct"
+        ],
         "answer": [
             "Candidates must have at least five (5) O-level credits, including English and Mathematics, and hold a relevant qualification such as:",
             " - A-level passes",
@@ -282,6 +395,11 @@ qa_data = [
     },
     {
         "question": "Postgraduate Admission Requirements",
+        "keywords": [
+            "requirements",
+            "postgraduate",
+            "admission"
+        ],
         "answer": [
             "Basic Qualification: A first degree from the University of Ibadan or other recognized institutions is required.",
             "Degree Classification: A bachelor\u2019s degree with at least Second Class Upper Division is typically required for Master\u2019s programs.",
@@ -292,6 +410,12 @@ qa_data = [
     },
     {
         "question": "Undergraduate program course duration at the University of Ibadan",
+        "keywords": [
+            "program",
+            "undergraduate",
+            "duration",
+            "course"
+        ],
         "answer": [
             "General- 3 to 6 years, depending on the faculty and course.",
             "Medicine and Surgery: 6 years",
@@ -303,6 +427,12 @@ qa_data = [
     },
     {
         "question": "Postgraduate Programs course duration at the University of Ibadan",
+        "keywords": [
+            "programs",
+            "course",
+            "postgraduate",
+            "duration"
+        ],
         "answer": [
             "Master's Degree: 2 years full-time, 3 years part-time",
             "M.Phil.: 2 years full-time",
@@ -311,13 +441,25 @@ qa_data = [
         ]
     },
     {
-        "question": "Diploma program course duration ",
+        "question": "Diploma program course duration",
+        "keywords": [
+            "program",
+            "course",
+            "duration",
+            "diploma"
+        ],
         "answer": [
             "Diploma Programs: 1 to 2 years"
         ]
     },
     {
         "question": "Research Centers and Institutes",
+        "keywords": [
+            "research",
+            "and",
+            "centers",
+            "institutes"
+        ],
         "answer": [
             "Institute for Advanced Medical Research and Training (IAMRAT): Focuses on multidisciplinary medical research, including infectious diseases and genetics. Units include Ethics Committee, Drug and Cancer Research, Environmental Sciences & Toxicology, Genetics & Cancer, etc.",
             "Institute of Child Health: Conducts research related to child health and development.",
@@ -331,22 +473,35 @@ qa_data = [
     },
     {
         "question": "What are the general tuition fees at the University of Ibadan?",
+        "keywords": [
+            "what",
+            "the",
+            "tuition",
+            "are",
+            "general",
+            "fees"
+        ],
         "answer": [
             "General Fees are: ",
-                "Acceptance Fee: 50000",
-                "Application Form prices: ", 
-                "Academic Programs: 20000",
-                "Professional Programs: 25000",
-                "Re-Issuance of Lost Certificate: 25000",
-      "         Verification of Results/Certificates/Transcripts",
-                "Institutions/Organizations: 5000",
-                "Individuals: 1000",
-                "Proficiency in English Language Letter: 1000",
-                "Letter of Attestation: 1000"
+            "Acceptance Fee: 50000",
+            "Application Form prices: ",
+            "Academic Programs: 20000",
+            "Professional Programs: 25000",
+            "Re-Issuance of Lost Certificate: 25000",
+            "         Verification of Results/Certificates/Transcripts",
+            "Institutions/Organizations: 5000",
+            "Individuals: 1000",
+            "Proficiency in English Language Letter: 1000",
+            "Letter of Attestation: 1000"
         ]
     },
     {
         "question": "Undergraduate Tuition Fees at the University of Ibadan?",
+        "keywords": [
+            "tuition",
+            "fees",
+            "undergraduate"
+        ],
         "answer": [
             "Faculty of Agriculture: Agricultural Extension and Rural Development: 100L/DE (Freshers): 36800, 200L: 25250, 300L: 22150, 400L: 31150, 500L: 25650",
             "Forest Resources Management:  100L/DE (Freshers): 68500, Returning Students (300L/400L): 78000",
@@ -374,6 +529,12 @@ qa_data = [
     },
     {
         "question": "Postgraduate Programs tuition fee at the University of Ibadan",
+        "keywords": [
+            "fee",
+            "programs",
+            "postgraduate",
+            "tuition"
+        ],
         "answer": [
             "Acceptance Fee: 50000",
             "Tuition Fees: Freshers: Min: 75000, Max: 120000",
@@ -383,12 +544,24 @@ qa_data = [
     },
     {
         "question": "General Fees - Acceptance Fee at the University of Ibadan",
+        "keywords": [
+            "general",
+            "fees",
+            "fee",
+            "acceptance"
+        ],
         "answer": [
             50000
         ]
     },
     {
         "question": "General Fees - Application Form at the University of Ibadan",
+        "keywords": [
+            "general",
+            "fees",
+            "form",
+            "application"
+        ],
         "answer": [
             {
                 "Academic Programs": 20000,
@@ -398,12 +571,27 @@ qa_data = [
     },
     {
         "question": "General Fees - Re-Issuance of Lost Certificate at the University of Ibadan",
+        "keywords": [
+            "of",
+            "certificate",
+            "lost",
+            "general",
+            "fees",
+            "reissuance"
+        ],
         "answer": [
             25000
         ]
     },
     {
         "question": "General Fees - Verification of Results/Certificates/Transcripts at the University of Ibadan",
+        "keywords": [
+            "of",
+            "verification",
+            "general",
+            "fees",
+            "resultscertificatestranscripts"
+        ],
         "answer": [
             {
                 "Institutions/Organizations": 5000,
@@ -413,18 +601,42 @@ qa_data = [
     },
     {
         "question": "General Fees - Proficiency in English Language Letter at the University of Ibadan",
+        "keywords": [
+            "language",
+            "proficiency",
+            "in",
+            "letter",
+            "general",
+            "fees",
+            "english"
+        ],
         "answer": [
             1000
         ]
     },
     {
         "question": "General Fees - Letter of Attestation at the University of Ibadan",
+        "keywords": [
+            "of",
+            "attestation",
+            "letter",
+            "general",
+            "fees"
+        ],
         "answer": [
             1000
         ]
     },
     {
         "question": "Undergraduate Tuition Fees - Faculty of Agriculture at the University of Ibadan",
+        "keywords": [
+            "faculty",
+            "agriculture",
+            "tuition",
+            "fees",
+            "undergraduate",
+            "of"
+        ],
         "answer": [
             {
                 "Agricultural Extension and Rural Development": {
@@ -443,6 +655,14 @@ qa_data = [
     },
     {
         "question": "Undergraduate Tuition Fees - Faculty of Arts at the University of Ibadan",
+        "keywords": [
+            "faculty",
+            "tuition",
+            "fees",
+            "undergraduate",
+            "arts",
+            "of"
+        ],
         "answer": [
             {
                 "General": {
@@ -462,6 +682,14 @@ qa_data = [
     },
     {
         "question": "Undergraduate Tuition Fees - Faculty of Law at the University of Ibadan",
+        "keywords": [
+            "law",
+            "faculty",
+            "tuition",
+            "fees",
+            "undergraduate",
+            "of"
+        ],
         "answer": [
             {
                 "100L/DE (Freshers)": 79000,
@@ -472,6 +700,14 @@ qa_data = [
     },
     {
         "question": "Undergraduate Tuition Fees - College of Medicine at the University of Ibadan",
+        "keywords": [
+            "college",
+            "medicine",
+            "tuition",
+            "fees",
+            "undergraduate",
+            "of"
+        ],
         "answer": [
             {
                 "Biochemistry and Physiology": {
@@ -484,6 +720,14 @@ qa_data = [
     },
     {
         "question": "Undergraduate Tuition Fees - Faculty of Science at the University of Ibadan",
+        "keywords": [
+            "faculty",
+            "tuition",
+            "fees",
+            "undergraduate",
+            "of",
+            "science"
+        ],
         "answer": [
             {
                 "Anthropology": {
@@ -568,6 +812,13 @@ qa_data = [
     },
     {
         "question": "Undergraduate Tuition Fees - Other Faculties at the University of Ibadan",
+        "keywords": [
+            "faculties",
+            "other",
+            "tuition",
+            "undergraduate",
+            "fees"
+        ],
         "answer": [
             {
                 "College of Health Sciences and Faculty of Pharmacy": {
@@ -583,12 +834,24 @@ qa_data = [
     },
     {
         "question": "Postgraduate Programs - Acceptance Fee at the University of Ibadan",
+        "keywords": [
+            "fee",
+            "programs",
+            "postgraduate",
+            "acceptance"
+        ],
         "answer": [
             50000
         ]
     },
     {
         "question": "Postgraduate Programs - Tuition Fees at the University of Ibadan",
+        "keywords": [
+            "programs",
+            "fees",
+            "postgraduate",
+            "tuition"
+        ],
         "answer": [
             {
                 "Freshers": {
@@ -604,6 +867,12 @@ qa_data = [
     },
     {
         "question": "Postgraduate Programs - Registration Fees at the University of Ibadan",
+        "keywords": [
+            "programs",
+            "fees",
+            "postgraduate",
+            "registration"
+        ],
         "answer": [
             {
                 "Min": 5000,
@@ -613,6 +882,11 @@ qa_data = [
     },
     {
         "question": "Tuition Fees - Undergraduate at the University of Ibadan",
+        "keywords": [
+            "tuition",
+            "fees",
+            "undergraduate"
+        ],
         "answer": [
             {
                 "Freshers": {
@@ -628,6 +902,11 @@ qa_data = [
     },
     {
         "question": "Tuition Fees - Postgraduate at the University of Ibadan",
+        "keywords": [
+            "tuition",
+            "fees",
+            "postgraduate"
+        ],
         "answer": [
             {
                 "Min": 75000,
@@ -637,36 +916,73 @@ qa_data = [
     },
     {
         "question": "Acceptance Fee - Undergraduate at the University of Ibadan",
+        "keywords": [
+            "fee",
+            "undergraduate",
+            "acceptance"
+        ],
         "answer": [
             50000
         ]
     },
     {
         "question": "Other Charges - Health Fee at the University of Ibadan",
+        "keywords": [
+            "other",
+            "charges",
+            "health",
+            "fee"
+        ],
         "answer": [
             2500
         ]
     },
     {
         "question": "Other Charges - ICT Fee at the University of Ibadan",
+        "keywords": [
+            "other",
+            "ict",
+            "charges",
+            "fee"
+        ],
         "answer": [
             3000
         ]
     },
     {
         "question": "Other Charges - Library Fee at the University of Ibadan",
+        "keywords": [
+            "other",
+            "library",
+            "charges",
+            "fee"
+        ],
         "answer": [
             5000
         ]
     },
     {
         "question": "Other Charges - Sport Fee at the University of Ibadan",
+        "keywords": [
+            "other",
+            "charges",
+            "sport",
+            "fee"
+        ],
         "answer": [
             2000
         ]
     },
     {
         "question": "Other Charges - Faculty and Departmental Fees at the University of Ibadan",
+        "keywords": [
+            "departmental",
+            "faculty",
+            "other",
+            "and",
+            "charges",
+            "fees"
+        ],
         "answer": [
             {
                 "Min": 5000,
@@ -676,18 +992,33 @@ qa_data = [
     },
     {
         "question": "Payment Guidelines - Method at the University of Ibadan",
+        "keywords": [
+            "payment",
+            "guidelines",
+            "method"
+        ],
         "answer": [
             "Fees must be paid through the UI student portal."
         ]
     },
     {
         "question": "Payment Guidelines - Deadlines at the University of Ibadan",
+        "keywords": [
+            "payment",
+            "guidelines",
+            "deadlines"
+        ],
         "answer": [
             "Payment deadlines are strictly enforced, with penalties for late payments."
         ]
     },
     {
         "question": "Scholarship Opportunities - Types at the University of Ibadan",
+        "keywords": [
+            "types",
+            "scholarship",
+            "opportunities"
+        ],
         "answer": [
             "Merit-based scholarships",
             "Need-based scholarships"
@@ -695,12 +1026,26 @@ qa_data = [
     },
     {
         "question": "Scholarship Opportunities - Details at the University of Ibadan",
+        "keywords": [
+            "scholarship",
+            "opportunities",
+            "details"
+        ],
         "answer": [
             "Specific details are not available in the current search results."
         ]
     },
     {
         "question": "Faculty of Agriculture and Forestry - Estimated Cost at the University of Ibadan",
+        "keywords": [
+            "faculty",
+            "and",
+            "agriculture",
+            "cost",
+            "of",
+            "estimated",
+            "forestry"
+        ],
         "answer": [
             {
                 "Min": 20000,
@@ -710,6 +1055,14 @@ qa_data = [
     },
     {
         "question": "Faculty of Agriculture and Forestry - Materials at the University of Ibadan",
+        "keywords": [
+            "faculty",
+            "and",
+            "agriculture",
+            "of",
+            "materials",
+            "forestry"
+        ],
         "answer": [
             "Textbooks",
             "Lab manuals",
@@ -718,6 +1071,13 @@ qa_data = [
     },
     {
         "question": "Faculty of Arts - Estimated Cost at the University of Ibadan",
+        "keywords": [
+            "of",
+            "faculty",
+            "cost",
+            "arts",
+            "estimated"
+        ],
         "answer": [
             {
                 "Min": 10000,
@@ -727,6 +1087,12 @@ qa_data = [
     },
     {
         "question": "Faculty of Arts - Materials at the University of Ibadan",
+        "keywords": [
+            "arts",
+            "of",
+            "materials",
+            "faculty"
+        ],
         "answer": [
             "Textbooks",
             "Literary works"
@@ -734,6 +1100,13 @@ qa_data = [
     },
     {
         "question": "Faculty of Law - Estimated Cost at the University of Ibadan",
+        "keywords": [
+            "law",
+            "faculty",
+            "cost",
+            "of",
+            "estimated"
+        ],
         "answer": [
             {
                 "Min": 15000,
@@ -743,6 +1116,12 @@ qa_data = [
     },
     {
         "question": "Faculty of Law - Materials at the University of Ibadan",
+        "keywords": [
+            "of",
+            "materials",
+            "law",
+            "faculty"
+        ],
         "answer": [
             "Law textbooks",
             "Statutes",
@@ -751,6 +1130,13 @@ qa_data = [
     },
     {
         "question": "College of Medicine - Estimated Cost at the University of Ibadan",
+        "keywords": [
+            "college",
+            "medicine",
+            "cost",
+            "of",
+            "estimated"
+        ],
         "answer": [
             {
                 "Min": 30000,
@@ -760,6 +1146,12 @@ qa_data = [
     },
     {
         "question": "College of Medicine - Materials at the University of Ibadan",
+        "keywords": [
+            "college",
+            "materials",
+            "of",
+            "medicine"
+        ],
         "answer": [
             "Medical textbooks",
             "Lab manuals",
@@ -768,6 +1160,13 @@ qa_data = [
     },
     {
         "question": "Faculty of Science - Estimated Cost at the University of Ibadan",
+        "keywords": [
+            "faculty",
+            "cost",
+            "of",
+            "estimated",
+            "science"
+        ],
         "answer": [
             {
                 "Min": 20000,
@@ -777,6 +1176,12 @@ qa_data = [
     },
     {
         "question": "Faculty of Science - Materials at the University of Ibadan",
+        "keywords": [
+            "of",
+            "materials",
+            "science",
+            "faculty"
+        ],
         "answer": [
             "Textbooks",
             "Lab manuals",
@@ -785,6 +1190,14 @@ qa_data = [
     },
     {
         "question": "Faculty of Social Sciences - Estimated Cost at the University of Ibadan",
+        "keywords": [
+            "faculty",
+            "social",
+            "cost",
+            "sciences",
+            "of",
+            "estimated"
+        ],
         "answer": [
             {
                 "Min": 10000,
@@ -794,6 +1207,13 @@ qa_data = [
     },
     {
         "question": "Faculty of Social Sciences - Materials at the University of Ibadan",
+        "keywords": [
+            "faculty",
+            "social",
+            "sciences",
+            "of",
+            "materials"
+        ],
         "answer": [
             "Textbooks",
             "Research materials"
@@ -801,6 +1221,13 @@ qa_data = [
     },
     {
         "question": "Faculty of Technology - Estimated Cost at the University of Ibadan",
+        "keywords": [
+            "faculty",
+            "cost",
+            "of",
+            "technology",
+            "estimated"
+        ],
         "answer": [
             {
                 "Min": 25000,
@@ -810,6 +1237,12 @@ qa_data = [
     },
     {
         "question": "Faculty of Technology - Materials at the University of Ibadan",
+        "keywords": [
+            "of",
+            "technology",
+            "materials",
+            "faculty"
+        ],
         "answer": [
             "Textbooks",
             "Project materials",
@@ -818,12 +1251,24 @@ qa_data = [
     },
     {
         "question": "category at the University of Ibadan",
+        "keywords": [
+            "category"
+        ],
         "answer": [
             "Student Life"
         ]
     },
     {
         "question": "Overview of student life and campus facilities at the University of Ibadan",
+        "keywords": [
+            "overview",
+            "life",
+            "and",
+            "facilities",
+            "student",
+            "of",
+            "campus"
+        ],
         "answer": [
             {
                 "Academic Experience": [
@@ -865,6 +1310,10 @@ qa_data = [
     },
     {
         "question": "Campus Facilities at the University of Ibadan",
+        "keywords": [
+            "facilities",
+            "campus"
+        ],
         "answer": [
             {
                 "Accommodation": [
@@ -932,6 +1381,14 @@ qa_data = [
     },
     {
         "question": "Academic & Professional Clubs University of Ibadan",
+        "keywords": [
+            "university",
+            "ibadan",
+            "academic",
+            "clubs",
+            "of",
+            "professional"
+        ],
         "answer": [
             "University of Ibadan Literary and Debating Society (UILDS): Focuses on literature, writing, and debate. Organizes literary readings, writing workshops, and debates.",
             "Student Finance Club: Prepares members for success in professional finance through workshops and networking opportunities.",
@@ -945,6 +1402,11 @@ qa_data = [
     },
     {
         "question": "Technology & Innovation Clubs at the University of Ibadan",
+        "keywords": [
+            "clubs",
+            "technology",
+            "innovation"
+        ],
         "answer": [
             "Google Developer Groups on Campus (GDGoC): Focuses on Google developer technologies, providing a platform for students to learn and network.",
             "AIESEC: Offers leadership development, cross-cultural internships, and volunteer exchange experiences.",
@@ -953,6 +1415,11 @@ qa_data = [
     },
     {
         "question": "Cultural & Social Clubs at the University of Ibadan",
+        "keywords": [
+            "social",
+            "clubs",
+            "cultural"
+        ],
         "answer": [
             "Sigma Club: The oldest students' organization in Sub-Saharan Africa, known for its social and philanthropic activities.",
             "Folk Heritage: Promotes cultural heritage and traditional practices.",
@@ -967,6 +1434,11 @@ qa_data = [
     },
     {
         "question": "Community Service & Advocacy at the University of Ibadan",
+        "keywords": [
+            "community",
+            "service",
+            "advocacy"
+        ],
         "answer": [
             "Rotaract Club of University of Ibadan: A service-oriented organization focused on community service, professional development, and fostering goodwill.",
             "Junior Chamber International (JCI) UI: Empowers young people to create positive change through leadership development and community service.",
@@ -980,6 +1452,10 @@ qa_data = [
     },
     {
         "question": "Religious Organizations at the University of Ibadan",
+        "keywords": [
+            "religious",
+            "organizations"
+        ],
         "answer": [
             "Adventist Student Fellowship: A religious organization for Adventist students.",
             "Ahmadi Muslim Students Association: A religious organization for Ahmadi Muslim students.",
@@ -1000,12 +1476,22 @@ qa_data = [
     },
     {
         "question": "Sports & Fitness Clubs at the University of Ibadan",
+        "keywords": [
+            "sports",
+            "fitness",
+            "clubs"
+        ],
         "answer": [
             "Sports Africonados: Promotes sports and physical fitness."
         ]
     },
     {
         "question": "Environmental & Sustainability Clubs",
+        "keywords": [
+            "clubs",
+            "environmental",
+            "sustainability"
+        ],
         "answer": [
             "Club Environmentalist: Promotes environmental awareness and sustainability.",
             "Environmental Health Student Association: Promotes environmental health awareness and practices.",
@@ -1015,6 +1501,10 @@ qa_data = [
     },
     {
         "question": "Entertainment & Networking at the University of Ibadan",
+        "keywords": [
+            "networking",
+            "entertainment"
+        ],
         "answer": [
             "Crystal Entertainment: Organizes entertainment events and activities.",
             "S-Cube Entertainment: Organizes entertainment events and activities.",
@@ -1025,52 +1515,20 @@ qa_data = [
     },
     {
         "question": "Sports Facilities and Activities at the University of Ibadan",
-        "answers": [
-            {
-                "category": "Sports Complexes",
-                "details": [
-                    "New Sports Complex near Obafemi Awolowo Hall: Includes a football pitch, a rubberized 10-lane track, and a fitness center.",
-                    "Complex between Faculty of Education and Kenneth Dike Library: Features a 50-meter Olympic-size swimming pool, two football pitches, four hard tennis courts, a hockey pitch, two volleyball courts, a cricket pitch with a pavilion, two squash courts, and a multi-purpose indoor hall for badminton, table tennis, taekwondo, and judo."
-                ]
-            },
-            {
-                "category": "Sports Disciplines",
-                "details": [
-                    "Approved NUGA Sports: Athletics (track and field), badminton, basketball, chess, cricket, handball, hockey, judo, soccer, squash, swimming, table tennis, taekwondo, tennis, and volleyball.",
-                    "Other Recreational Games: Table tennis, badminton, tennis, volleyball, chess, and mini soccer pitches available in halls of residence."
-                ]
-            },
-            {
-                "category": "Competitions and Events",
-                "details": [
-                    "Inter-Hall and Inter-Faculty Competitions: Spirited competitions for championship cups, especially in soccer and athletics.",
-                    "National and International Competitions: UI participates in NUGA, WAUG, FASU, and FISU events."
-                ]
-            },
-            {
-                "category": "Recreational Activities",
-                "details": [
-                    "Swimming: Recreational swimming is available on weekends for students, staff, and the public.",
-                    "Fitness and Gym: The Gamaliel Onosode Gymnasium offers fitness facilities for students."
-                ]
-            },
-            {
-                "category": "Benefits of Sports",
-                "details": [
-                    "Enhances physical and mental well-being.",
-                    "Builds character and provides opportunities for career development and leadership skills."
-                ]
-            },
-            {
-                "category": "Challenges",
-                "details": [
-                    "Despite achievements, UI faces structural and cultural challenges limiting the full potential of sports."
-                ]
-            }
-        ]
+        "keywords": [
+            "and",
+            "facilities",
+            "sports",
+            "activities"
+        ],
+        "answer": []
     },
     {
         "question": "Security Division",
+        "keywords": [
+            "security",
+            "division"
+        ],
         "answer": [
             "The University of Ibadan has a dedicated Security Division located between Queen Elizabeth Hall and the Bursary Department.",
             "This division enforces university regulations and protects lives and properties on campus.",
@@ -1079,6 +1537,10 @@ qa_data = [
     },
     {
         "question": "Emergency Response at the University of Ibadan",
+        "keywords": [
+            "response",
+            "emergency"
+        ],
         "answer": [
             "In case of emergencies such as fires, accidents, or crimes, incidents are reported to the Security Division.",
             "The Security Division either handles the incident directly or escalates it to the police for further investigation.",
@@ -1087,12 +1549,22 @@ qa_data = [
     },
     {
         "question": "Mobile Phone Links at the University of Ibadan",
+        "keywords": [
+            "links",
+            "phone",
+            "mobile"
+        ],
         "answer": [
             "The Security Division provides mobile phone numbers for emergency contact, ensuring a quick response to security breaches."
         ]
     },
     {
         "question": "Armed Police Patrols at the University of Ibadan",
+        "keywords": [
+            "patrols",
+            "armed",
+            "police"
+        ],
         "answer": [
             "The university collaborates with armed police for patrolling the campus.",
             "Random security checks and surveillance are conducted to enhance security."
@@ -1100,6 +1572,12 @@ qa_data = [
     },
     {
         "question": "Security Breaches and Measures at the University of Ibadan",
+        "keywords": [
+            "security",
+            "measures",
+            "breaches",
+            "and"
+        ],
         "answer": [
             "Despite security efforts, incidents like thefts and unauthorized access have been reported.",
             "Security measures include screening visitors at female halls and restricting male visitors."
@@ -1107,6 +1585,11 @@ qa_data = [
     },
     {
         "question": "Challenges and Criticisms at the University of Ibadan",
+        "keywords": [
+            "and",
+            "challenges",
+            "criticisms"
+        ],
         "answer": [
             "Concerns exist regarding the effectiveness of the security system.",
             "Reports of security personnel being untrustworthy or inefficient have led to calls for reforms.",
@@ -1115,6 +1598,12 @@ qa_data = [
     },
     {
         "question": "Recent Incidents and Reforms at the University of Ibadan",
+        "keywords": [
+            "incidents",
+            "recent",
+            "reforms",
+            "and"
+        ],
         "answer": [
             "Security personnel have been implicated in recent incidents, raising concerns about accountability.",
             "Students and journalists have called for disciplinary action and better training for security operatives."
@@ -1122,6 +1611,11 @@ qa_data = [
     },
     {
         "question": "Recommendations for Improvement at the University of Ibadan",
+        "keywords": [
+            "improvement",
+            "recommendations",
+            "for"
+        ],
         "answer": [
             "Regular training and monitoring of security personnel to improve effectiveness.",
             "Enhancing intelligence gathering to detect and prevent potential threats.",
@@ -1129,95 +1623,26 @@ qa_data = [
             "Integrating technology such as mobile safety apps for faster emergency response and anonymous incident reporting."
         ]
     },
-
     {
         "question": "Notable Faculty Members at the University of Ibadan",
-        "answers": [
-            {
-                "name": "Salami I.A.",
-                "position": "Ag. Head of Department (Reader), Faculty of Education",
-                "specialization": "Early Childhood Education, Pre and Primary Mathematics Education, Educational Research",
-                "contact": "ia.salami@ui.edu.ng / snappy600@gmail.com"
-            },
-            {
-                "name": "Oduolowu, Esther Abiola",
-                "position": "Professor, Faculty of Education",
-                "specialization": "Education"
-            },
-            {
-                "name": "Babarinde Sikiru Adekola",
-                "position": "Professor, Faculty of Education",
-                "specialization": "Philosophy of Education"
-            },
-            {
-                "name": "Lawal, B. Olubode",
-                "position": "Professor, Faculty of Education",
-                "specialization": "Educational History and Policy"
-            },
-            {
-                "name": "Amosun, Moses Dele",
-                "position": "Senior Lecturer, Faculty of Education",
-                "specialization": "Education"
-            },
-            {
-                "name": "E.A. Emeke",
-                "position": "Professor",
-                "specialization": "Counselling Psychology and Educational Evaluation"
-            },
-            {
-                "name": "T. W. Yoloye",
-                "position": "Professor",
-                "specialization": "Science Education and Counselling Psychology"
-            },
-            {
-                "name": "M. A. Araromi",
-                "position": "Professor",
-                "specialization": "Language Education"
-            },
-            {
-                "name": "P.N. Okpala",
-                "position": "Professor",
-                "specialization": "Science Education and Educational Evaluation"
-            },
-            {
-                "name": "C.O. Onocha",
-                "position": "Professor",
-                "specialization": "Science Education and Educational Evaluation"
-            },
-            {
-                "name": "Ifeoma M. Isiugo-Abanihe",
-                "position": "Reader",
-                "specialization": "Language Education and Educational Evaluation"
-            },
-            {
-                "name": "J. A. Adegbile",
-                "position": "Professor",
-                "specialization": "Language Education and Educational Evaluation"
-            },
-            {
-                "name": "Olanike Kudirat Adeyemo",
-                "position": "Professor of Veterinary Public Health and Preventive Medicine",
-                "specialization": "Veterinary Public Health and Preventive Medicine"
-            },
-            {
-                "name": "Adebola O. Ogunbiyi",
-                "position": "Professor, College of Medicine",
-                "specialization": "Medicine"
-            },
-            {
-                "name": "Adesola Ogunniyi",
-                "position": "Professor, College of Medicine",
-                "specialization": "Medicine"
-            },
-            {
-                "name": "Solomon Kadiri",
-                "position": "Professor, College of Medicine",
-                "specialization": "Medicine"
-            }
-        ]
+        "keywords": [
+            "members",
+            "notable",
+            "faculty"
+        ],
+        "answer": []
     },
     {
         "question": "Accreditation Status of Courses at University of Ibadan",
+        "keywords": [
+            "university",
+            "ibadan",
+            "courses",
+            "accreditation",
+            "at",
+            "of",
+            "status"
+        ],
         "answer": [
             {
                 "Faculty of Agriculture and Forestry": {
@@ -1301,215 +1726,257 @@ qa_data = [
     },
     {
         "question": "List of Cafeterias and Food Places at the University of Ibadan",
+        "keywords": [
+            "and",
+            "food",
+            "list",
+            "of",
+            "places",
+            "cafeterias"
+        ],
         "answer": [
             {
                 "category": "Hostel Cafeterias",
                 "cafeterias": [
-                  {
-                    "name": "Tedder Hall's 'Klazz' Cafeteria",
-                    "details": "One of the best among hostels, popular among students.",
-                    "price_range": "Affordable, but not specified."
-                  },
-                  {
-                    "name": "Bello Hall GSK's Cafeteria",
-                    "details": "Famous for its 'Amala and Gbegiri with Ewedu'.",
-                    "price_range": "Reasonable, but not detailed."
-                  },
-                  {
-                    "name": "Mellamby, Kuti, and Indy Hall Cafeterias",
-                    "details": "Less popular but still provide basic meals.",
-                    "price_range": "Generally low, but specific figures not available."
-                  },
-                  {
-                    "name": "Zik Hall Cafeterias",
-                    "details": "Boluid serves better swallow portions, New Flava offers better rice and spaghetti.",
-                    "price_range": "Varies, but generally affordable."
-                  }
+                    {
+                        "name": "Tedder Hall's 'Klazz' Cafeteria",
+                        "details": "One of the best among hostels, popular among students.",
+                        "price_range": "Affordable, but not specified."
+                    },
+                    {
+                        "name": "Bello Hall GSK's Cafeteria",
+                        "details": "Famous for its 'Amala and Gbegiri with Ewedu'.",
+                        "price_range": "Reasonable, but not detailed."
+                    },
+                    {
+                        "name": "Mellamby, Kuti, and Indy Hall Cafeterias",
+                        "details": "Less popular but still provide basic meals.",
+                        "price_range": "Generally low, but specific figures not available."
+                    },
+                    {
+                        "name": "Zik Hall Cafeterias",
+                        "details": "Boluid serves better swallow portions, New Flava offers better rice and spaghetti.",
+                        "price_range": "Varies, but generally affordable."
+                    }
                 ]
-              },
-              {
+            },
+            {
                 "category": "General Cafeterias",
                 "cafeterias": [
-                  {
-                    "name": "Archive Cafeteria",
-                    "details": "Located behind the Chapel of Resurrection, known for its satisfying meals.",
-                    "price_range": "Reasonable, but not specified."
-                  },
-                  {
-                    "name": "Animal Science Basement",
-                    "details": "Popular for beans and bread snack.",
-                    "price_range": "Typically low, often less than ₦500."
-                  },
-                  {
-                    "name": "Crop Protection and Environmental Biology Canteen",
-                    "details": "New and well-received for its meals.",
-                    "price_range": "Affordable, but not detailed."
-                  },
-                  {
-                    "name": "Abdulsalam Postgraduate Hall Canteen",
-                    "details": "Known for its evening bread and akara.",
-                    "price_range": "Often less than ₦500."
-                  },
-                  {
-                    "name": "Obafemi Awolowo Hall Cafeteria",
-                    "details": "Offers healthy meals with dining options.",
-                    "price_range": "Reasonable, but not specified."
-                  },
-                  {
-                    "name": "Students Union Building (SUB) Eateries",
-                    "details": "Several eateries offering a variety of meals.",
-                    "price_range": "Varies, but generally affordable."
-                  }
+                    {
+                        "name": "Archive Cafeteria",
+                        "details": "Located behind the Chapel of Resurrection, known for its satisfying meals.",
+                        "price_range": "Reasonable, but not specified."
+                    },
+                    {
+                        "name": "Animal Science Basement",
+                        "details": "Popular for beans and bread snack.",
+                        "price_range": "Typically low, often less than \u20a6500."
+                    },
+                    {
+                        "name": "Crop Protection and Environmental Biology Canteen",
+                        "details": "New and well-received for its meals.",
+                        "price_range": "Affordable, but not detailed."
+                    },
+                    {
+                        "name": "Abdulsalam Postgraduate Hall Canteen",
+                        "details": "Known for its evening bread and akara.",
+                        "price_range": "Often less than \u20a6500."
+                    },
+                    {
+                        "name": "Obafemi Awolowo Hall Cafeteria",
+                        "details": "Offers healthy meals with dining options.",
+                        "price_range": "Reasonable, but not specified."
+                    },
+                    {
+                        "name": "Students Union Building (SUB) Eateries",
+                        "details": "Several eateries offering a variety of meals.",
+                        "price_range": "Varies, but generally affordable."
+                    }
                 ]
-              },
-              {
+            },
+            {
                 "category": "Specialty and Grilled Food Spots",
                 "cafeterias": [
-                  {
-                    "name": "Matti Grills",
-                    "details": "Offers grilled meals.",
-                    "price_range": "Reasonable, but not detailed."
-                  },
-                  {
-                    "name": "Neche's Kitchen",
-                    "details": "Provides a variety of meals for students.",
-                    "price_range": "Affordable, but not specified."
-                  },
-                  {
-                    "name": "Flamez Kitchen and Grills",
-                    "details": "Offers grilled and other meals.",
-                    "price_range": "Reasonable, but not detailed."
-                  },
-                  {
-                    "name": "Bisola Pepper Soup - UI",
-                    "details": "Specializes in pepper soup and local dishes.",
-                    "price_range": "Typically low, but not specified."
-                  },
-                  {
-                    "name": "Bisola Food Place - UI",
-                    "details": "Offers a range of traditional Nigerian meals.",
-                    "price_range": "Generally affordable."
-                  },
-                  {
-                    "name": "EWA AGOYIN by BISOLA",
-                    "details": "Known for its Ewa Agoyin breakfast dish.",
-                    "price_range": "Typically low, often less than ₦500."
-                  },
-                  {
-                    "name": "B & B",
-                    "details": "Offers breakfast and other meals.",
-                    "price_range": "Reasonable, but not specified."
-                  }
+                    {
+                        "name": "Matti Grills",
+                        "details": "Offers grilled meals.",
+                        "price_range": "Reasonable, but not detailed."
+                    },
+                    {
+                        "name": "Neche's Kitchen",
+                        "details": "Provides a variety of meals for students.",
+                        "price_range": "Affordable, but not specified."
+                    },
+                    {
+                        "name": "Flamez Kitchen and Grills",
+                        "details": "Offers grilled and other meals.",
+                        "price_range": "Reasonable, but not detailed."
+                    },
+                    {
+                        "name": "Bisola Pepper Soup - UI",
+                        "details": "Specializes in pepper soup and local dishes.",
+                        "price_range": "Typically low, but not specified."
+                    },
+                    {
+                        "name": "Bisola Food Place - UI",
+                        "details": "Offers a range of traditional Nigerian meals.",
+                        "price_range": "Generally affordable."
+                    },
+                    {
+                        "name": "EWA AGOYIN by BISOLA",
+                        "details": "Known for its Ewa Agoyin breakfast dish.",
+                        "price_range": "Typically low, often less than \u20a6500."
+                    },
+                    {
+                        "name": "B & B",
+                        "details": "Offers breakfast and other meals.",
+                        "price_range": "Reasonable, but not specified."
+                    }
                 ]
-              },
-              {
+            },
+            {
                 "general_price_ranges": {
                     "basic_meals": "A few hundred to a few thousand naira per meal.",
-                    "snacks": "Beans and bread, akara, etc., often less than ₦500.",
-                    "swallow_meals": "Prices vary due to inflation (e.g., a wrap of fufu might cost around ₦200)."
+                    "snacks": "Beans and bread, akara, etc., often less than \u20a6500.",
+                    "swallow_meals": "Prices vary due to inflation (e.g., a wrap of fufu might cost around \u20a6200)."
                 }
-              }
+            }
         ]
     },
     {
         "question": "What is the breakdown of the cost of private off-campus accommodations in Ibadan, Nigeria?",
+        "keywords": [
+            "what",
+            "accommodations",
+            "nigeria",
+            "is",
+            "ibadan",
+            "in",
+            "the",
+            "cost",
+            "offcampus",
+            "breakdown",
+            "of",
+            "private"
+        ],
         "answer": [
             {
                 "accommodation_types": {
-                  "apartments": {
-                    "2-bedroom": "₦400,000 - ₦700,000 per annum",
-                    "3-bedroom": "₦600,000 - ₦1,500,000 per annum"
-                  },
-                  "bungalows_and_duplexes": {
-                    "3-bedroom_bungalow": "₦650,000 - ₦2,500,000 per annum",
-                    "3-bedroom_duplex": "₦700,000 - ₦2,000,000 per annum",
-                    "4-bedroom_duplex": "₦3,000,000 - ₦5,000,000 per annum"
-                  },
-                  "mini_flats_and_bedsitters": {
-                    "price_range": "Generally lower, details unavailable"
-                  }
+                    "apartments": {
+                        "2-bedroom": "\u20a6400,000 - \u20a6700,000 per annum",
+                        "3-bedroom": "\u20a6600,000 - \u20a61,500,000 per annum"
+                    },
+                    "bungalows_and_duplexes": {
+                        "3-bedroom_bungalow": "\u20a6650,000 - \u20a62,500,000 per annum",
+                        "3-bedroom_duplex": "\u20a6700,000 - \u20a62,000,000 per annum",
+                        "4-bedroom_duplex": "\u20a63,000,000 - \u20a65,000,000 per annum"
+                    },
+                    "mini_flats_and_bedsitters": {
+                        "price_range": "Generally lower, details unavailable"
+                    }
                 },
                 "factors_influencing_prices": {
-                  "location": {
-                    "premium_areas": ["Jericho GRA", "Agodi GRA", "Oluyole Estate"],
-                    "affordable_areas": ["Moniya", "Ologuneru"]
-                  },
-                  "amenities": [
-                    "POP ceilings",
-                    "Kitchen cabinets",
-                    "Security guards"
-                  ],
-                  "condition_of_property": "Newly built or well-maintained properties cost more"
+                    "location": {
+                        "premium_areas": [
+                            "Jericho GRA",
+                            "Agodi GRA",
+                            "Oluyole Estate"
+                        ],
+                        "affordable_areas": [
+                            "Moniya",
+                            "Ologuneru"
+                        ]
+                    },
+                    "amenities": [
+                        "POP ceilings",
+                        "Kitchen cabinets",
+                        "Security guards"
+                    ],
+                    "condition_of_property": "Newly built or well-maintained properties cost more"
                 },
                 "additional_costs": {
-                  "agency_fees": "Typically 10% of annual rent",
-                  "caution_fees": "₦50,000 - ₦200,000 depending on property",
-                  "utilities": "Electricity, water, and internet services are paid separately"
+                    "agency_fees": "Typically 10% of annual rent",
+                    "caution_fees": "\u20a650,000 - \u20a6200,000 depending on property",
+                    "utilities": "Electricity, water, and internet services are paid separately"
                 }
-              }
+            }
         ]
     },
     {
         "question": "What are the accommodation costs and living expenses at the University of Ibadan?",
+        "keywords": [
+            "what",
+            "accommodation",
+            "expenses",
+            "living",
+            "and",
+            "the",
+            "are",
+            "costs"
+        ],
         "answer": [
             {
                 "accommodation_costs": {
-                  "undergraduate_hostel_fees": {
-                    "fresh_students": "₦60,000",
-                    "returning_students": {
-                      "general": "₦45,000",
-                      "ABH_occupants": "₦60,000"
+                    "undergraduate_hostel_fees": {
+                        "fresh_students": "\u20a660,000",
+                        "returning_students": {
+                            "general": "\u20a645,000",
+                            "ABH_occupants": "\u20a660,000"
+                        }
+                    },
+                    "postgraduate_hostel_fees": {
+                        "abdulsalami_abubakar_hall": {
+                            "one_man_room": "\u20a6175,000",
+                            "two_man_room": "\u20a687,500",
+                            "three_man_room": "\u20a662,500"
+                        },
+                        "obafemi_awolowo_hall": {
+                            "one_man_room": "\u20a6120,000",
+                            "two_man_room": "\u20a680,000"
+                        },
+                        "adetowun_ogunsheye_postgraduate_hall": {
+                            "one_man_room": "\u20a6150,000",
+                            "two_man_room": "\u20a6100,000"
+                        },
+                        "ayodele_falase_hall": {
+                            "one_man_room": "\u20a675,000 per semester",
+                            "two_man_room": "\u20a650,000 per semester"
+                        }
                     }
-                  },
-                  "postgraduate_hostel_fees": {
-                    "abdulsalami_abubakar_hall": {
-                      "one_man_room": "₦175,000",
-                      "two_man_room": "₦87,500",
-                      "three_man_room": "₦62,500"
-                    },
-                    "obafemi_awolowo_hall": {
-                      "one_man_room": "₦120,000",
-                      "two_man_room": "₦80,000"
-                    },
-                    "adetowun_ogunsheye_postgraduate_hall": {
-                      "one_man_room": "₦150,000",
-                      "two_man_room": "₦100,000"
-                    },
-                    "ayodele_falase_hall": {
-                      "one_man_room": "₦75,000 per semester",
-                      "two_man_room": "₦50,000 per semester"
-                    }
-                  }
                 },
                 "living_costs": {
-                  "food": {
-                    "cafeteria_meals": "₦500 - ₦2,000 per meal",
-                    "groceries": "₦30,000 - ₦50,000 per month"
-                  },
-                  "transportation": {
-                    "public_transport": "₦100 - ₦300 per trip",
-                    "fuel": "₦600 per liter (subject to change)"
-                  },
-                  "utilities": {
-                    "electricity_and_water": "₦5,000 - ₦15,000 per month",
-                    "internet_services": "₦10,000 - ₦20,000 per month"
-                  },
-                  "other_expenses": {
-                    "mobile_phone_recharge": "₦3,000 - ₦10,000 per month",
-                    "entertainment_and_leisure": "₦5,000 - ₦15,000 per outing"
-                  }
+                    "food": {
+                        "cafeteria_meals": "\u20a6500 - \u20a62,000 per meal",
+                        "groceries": "\u20a630,000 - \u20a650,000 per month"
+                    },
+                    "transportation": {
+                        "public_transport": "\u20a6100 - \u20a6300 per trip",
+                        "fuel": "\u20a6600 per liter (subject to change)"
+                    },
+                    "utilities": {
+                        "electricity_and_water": "\u20a65,000 - \u20a615,000 per month",
+                        "internet_services": "\u20a610,000 - \u20a620,000 per month"
+                    },
+                    "other_expenses": {
+                        "mobile_phone_recharge": "\u20a63,000 - \u20a610,000 per month",
+                        "entertainment_and_leisure": "\u20a65,000 - \u20a615,000 per outing"
+                    }
                 },
                 "general_expenses": {
-                  "basic_meals": "₦500 - ₦2,000",
-                  "snacks": "Less than ₦500",
-                  "transportation_off_campus": "Varies significantly based on distance and mode",
-                  "acceptance_fee": "₦50,000"
+                    "basic_meals": "\u20a6500 - \u20a62,000",
+                    "snacks": "Less than \u20a6500",
+                    "transportation_off_campus": "Varies significantly based on distance and mode",
+                    "acceptance_fee": "\u20a650,000"
                 }
-              }
+            }
         ]
     },
     {
         "question": "libraries at the University of Ibadan",
+        "keywords": [
+            "libraries"
+        ],
         "answer": [
             {
                 "name": "Latunde Odeku Medical Library",
@@ -1525,12 +1992,18 @@ qa_data = [
     },
     {
         "question": "category at the University of Ibadan",
+        "keywords": [
+            "category"
+        ],
         "answer": [
             "Faculty Libraries"
         ]
     },
     {
         "question": "libraries at the University of Ibadan",
+        "keywords": [
+            "libraries"
+        ],
         "answer": [
             "Agriculture/Renewable Natural Resources Library",
             "Faculty of Arts Library",
@@ -1547,12 +2020,18 @@ qa_data = [
     },
     {
         "question": "category at the University of Ibadan",
+        "keywords": [
+            "category"
+        ],
         "answer": [
             "Institute/Centre Libraries"
         ]
     },
     {
         "question": "libraries at the University of Ibadan",
+        "keywords": [
+            "libraries"
+        ],
         "answer": [
             "Africa Regional Centre for Information Science (ARCIS) Library",
             "Institute of African Studies Library",
@@ -1563,12 +2042,18 @@ qa_data = [
     },
     {
         "question": "category at the University of Ibadan",
+        "keywords": [
+            "category"
+        ],
         "answer": [
             "Hostel Cafeterias"
         ]
     },
     {
         "question": "cafeterias at the University of Ibadan",
+        "keywords": [
+            "cafeterias"
+        ],
         "answer": [
             {
                 "name": "Tedder Hall's 'Klazz' Cafeteria",
@@ -1594,12 +2079,18 @@ qa_data = [
     },
     {
         "question": "category at the University of Ibadan",
+        "keywords": [
+            "category"
+        ],
         "answer": [
             "General Cafeterias"
         ]
     },
     {
         "question": "cafeterias at the University of Ibadan",
+        "keywords": [
+            "cafeterias"
+        ],
         "answer": [
             {
                 "name": "Archive Cafeteria",
@@ -1635,12 +2126,18 @@ qa_data = [
     },
     {
         "question": "category at the University of Ibadan",
+        "keywords": [
+            "category"
+        ],
         "answer": [
             "Specialty and Grilled Food Spots"
         ]
     },
     {
         "question": "cafeterias at the University of Ibadan",
+        "keywords": [
+            "cafeterias"
+        ],
         "answer": [
             {
                 "name": "Matti Grills",
@@ -1681,6 +2178,10 @@ qa_data = [
     },
     {
         "question": "accommodation_types - apartments at the University of Ibadan",
+        "keywords": [
+            "apartments",
+            "accommodationtypes"
+        ],
         "answer": [
             {
                 "2-bedroom": "\u20a6400,000 - \u20a6700,000 per annum",
@@ -1690,6 +2191,10 @@ qa_data = [
     },
     {
         "question": "accommodation_types - bungalows_and_duplexes at the University of Ibadan",
+        "keywords": [
+            "accommodationtypes",
+            "bungalowsandduplexes"
+        ],
         "answer": [
             {
                 "3-bedroom_bungalow": "\u20a6650,000 - \u20a62,500,000 per annum",
@@ -1700,6 +2205,10 @@ qa_data = [
     },
     {
         "question": "accommodation_types - mini_flats_and_bedsitters at the University of Ibadan",
+        "keywords": [
+            "accommodationtypes",
+            "miniflatsandbedsitters"
+        ],
         "answer": [
             {
                 "price_range": "Generally lower, details unavailable"
@@ -1708,6 +2217,10 @@ qa_data = [
     },
     {
         "question": "factors_influencing_prices - location at the University of Ibadan",
+        "keywords": [
+            "factorsinfluencingprices",
+            "location"
+        ],
         "answer": [
             {
                 "premium_areas": [
@@ -1724,6 +2237,10 @@ qa_data = [
     },
     {
         "question": "factors_influencing_prices - amenities at the University of Ibadan",
+        "keywords": [
+            "factorsinfluencingprices",
+            "amenities"
+        ],
         "answer": [
             "POP ceilings",
             "Kitchen cabinets",
@@ -1732,30 +2249,50 @@ qa_data = [
     },
     {
         "question": "factors_influencing_prices - condition_of_property at the University of Ibadan",
+        "keywords": [
+            "factorsinfluencingprices",
+            "conditionofproperty"
+        ],
         "answer": [
             "Newly built or well-maintained properties cost more"
         ]
     },
     {
         "question": "additional_costs - agency_fees at the University of Ibadan",
+        "keywords": [
+            "agencyfees",
+            "additionalcosts"
+        ],
         "answer": [
             "Typically 10% of annual rent"
         ]
     },
     {
         "question": "additional_costs - caution_fees at the University of Ibadan",
+        "keywords": [
+            "cautionfees",
+            "additionalcosts"
+        ],
         "answer": [
             "\u20a650,000 - \u20a6200,000 depending on property"
         ]
     },
     {
         "question": "additional_costs - utilities at the University of Ibadan",
+        "keywords": [
+            "utilities",
+            "additionalcosts"
+        ],
         "answer": [
             "Electricity, water, and internet services are paid separately"
         ]
     },
     {
         "question": "accommodation_costs - undergraduate_hostel_fees at the University of Ibadan",
+        "keywords": [
+            "undergraduatehostelfees",
+            "accommodationcosts"
+        ],
         "answer": [
             {
                 "fresh_students": "\u20a660,000",
@@ -1768,6 +2305,10 @@ qa_data = [
     },
     {
         "question": "accommodation_costs - postgraduate_hostel_fees at the University of Ibadan",
+        "keywords": [
+            "postgraduatehostelfees",
+            "accommodationcosts"
+        ],
         "answer": [
             {
                 "abdulsalami_abubakar_hall": {
@@ -1792,6 +2333,10 @@ qa_data = [
     },
     {
         "question": "living_costs - food at the University of Ibadan",
+        "keywords": [
+            "food",
+            "livingcosts"
+        ],
         "answer": [
             {
                 "cafeteria_meals": "\u20a6500 - \u20a62,000 per meal",
@@ -1801,6 +2346,10 @@ qa_data = [
     },
     {
         "question": "living_costs - transportation at the University of Ibadan",
+        "keywords": [
+            "transportation",
+            "livingcosts"
+        ],
         "answer": [
             {
                 "public_transport": "\u20a6100 - \u20a6300 per trip",
@@ -1810,6 +2359,10 @@ qa_data = [
     },
     {
         "question": "living_costs - utilities at the University of Ibadan",
+        "keywords": [
+            "utilities",
+            "livingcosts"
+        ],
         "answer": [
             {
                 "electricity_and_water": "\u20a65,000 - \u20a615,000 per month",
@@ -1819,6 +2372,10 @@ qa_data = [
     },
     {
         "question": "living_costs - other_expenses at the University of Ibadan",
+        "keywords": [
+            "livingcosts",
+            "otherexpenses"
+        ],
         "answer": [
             {
                 "mobile_phone_recharge": "\u20a63,000 - \u20a610,000 per month",
@@ -1828,30 +2385,50 @@ qa_data = [
     },
     {
         "question": "general_expenses - basic_meals at the University of Ibadan",
+        "keywords": [
+            "basicmeals",
+            "generalexpenses"
+        ],
         "answer": [
             "\u20a6500 - \u20a62,000"
         ]
     },
     {
         "question": "general_expenses - snacks at the University of Ibadan",
+        "keywords": [
+            "snacks",
+            "generalexpenses"
+        ],
         "answer": [
             "Less than \u20a6500"
         ]
     },
     {
         "question": "general_expenses - transportation_off_campus at the University of Ibadan",
+        "keywords": [
+            "transportationoffcampus",
+            "generalexpenses"
+        ],
         "answer": [
             "Varies significantly based on distance and mode"
         ]
     },
     {
         "question": "general_expenses - acceptance_fee at the University of Ibadan",
+        "keywords": [
+            "acceptancefee",
+            "generalexpenses"
+        ],
         "answer": [
             "\u20a650,000"
         ]
     },
     {
         "question": "undergraduate_hostels - kenneth_mellanby_hall at the University of Ibadan",
+        "keywords": [
+            "undergraduatehostels",
+            "kennethmellanbyhall"
+        ],
         "answer": [
             {
                 "location": "North of the University Court",
@@ -1862,6 +2439,10 @@ qa_data = [
     },
     {
         "question": "undergraduate_hostels - kuti_hall at the University of Ibadan",
+        "keywords": [
+            "undergraduatehostels",
+            "kutihall"
+        ],
         "answer": [
             {
                 "location": "Eastern end of Niger Road",
@@ -1872,6 +2453,10 @@ qa_data = [
     },
     {
         "question": "undergraduate_hostels - sultan_bello_hall at the University of Ibadan",
+        "keywords": [
+            "undergraduatehostels",
+            "sultanbellohall"
+        ],
         "answer": [
             {
                 "location": "West of Kuti Hall along Niger Road",
@@ -1882,6 +2467,10 @@ qa_data = [
     },
     {
         "question": "undergraduate_hostels - obafemi_awolowo_hall at the University of Ibadan",
+        "keywords": [
+            "undergraduatehostels",
+            "obafemiawolowohall"
+        ],
         "answer": [
             {
                 "location": "Off Barth Road",
@@ -1892,6 +2481,10 @@ qa_data = [
     },
     {
         "question": "undergraduate_hostels - lord_tedder_hall at the University of Ibadan",
+        "keywords": [
+            "undergraduatehostels",
+            "lordtedderhall"
+        ],
         "answer": [
             {
                 "location": "Not specified",
@@ -1901,6 +2494,10 @@ qa_data = [
     },
     {
         "question": "undergraduate_hostels - nnamdi_azikiwe_hall at the University of Ibadan",
+        "keywords": [
+            "undergraduatehostels",
+            "nnamdiazikiwehall"
+        ],
         "answer": [
             {
                 "location": "Not specified",
@@ -1910,6 +2507,10 @@ qa_data = [
     },
     {
         "question": "undergraduate_hostels - independence_hall at the University of Ibadan",
+        "keywords": [
+            "undergraduatehostels",
+            "independencehall"
+        ],
         "answer": [
             {
                 "location": "Not specified",
@@ -1919,6 +2520,10 @@ qa_data = [
     },
     {
         "question": "undergraduate_hostels - queen_idia_hall at the University of Ibadan",
+        "keywords": [
+            "undergraduatehostels",
+            "queenidiahall"
+        ],
         "answer": [
             {
                 "location": "Not specified",
@@ -1928,6 +2533,10 @@ qa_data = [
     },
     {
         "question": "undergraduate_hostels - queen_elizabeth_hall at the University of Ibadan",
+        "keywords": [
+            "undergraduatehostels",
+            "queenelizabethhall"
+        ],
         "answer": [
             {
                 "location": "Not specified",
@@ -1937,6 +2546,10 @@ qa_data = [
     },
     {
         "question": "postgraduate_hostels - tafawa_balewa_hall at the University of Ibadan",
+        "keywords": [
+            "tafawabalewahall",
+            "postgraduatehostels"
+        ],
         "answer": [
             {
                 "location": "Along El-Kanemi Road, behind Sultan Bello Hall",
@@ -1947,6 +2560,10 @@ qa_data = [
     },
     {
         "question": "postgraduate_hostels - abdulsalami_abubakar_hall at the University of Ibadan",
+        "keywords": [
+            "postgraduatehostels",
+            "abdulsalamiabubakarhall"
+        ],
         "answer": [
             {
                 "location": "Along Barth Road, opposite Idia Hall",
@@ -1957,6 +2574,10 @@ qa_data = [
     },
     {
         "question": "postgraduate_hostels - obafemi_awolowo_hall at the University of Ibadan",
+        "keywords": [
+            "postgraduatehostels",
+            "obafemiawolowohall"
+        ],
         "answer": [
             {
                 "location": "Off Barth Road",
@@ -1967,48 +2588,80 @@ qa_data = [
     },
     {
         "question": "general_features - shared_facilities at the University of Ibadan",
+        "keywords": [
+            "generalfeatures",
+            "sharedfacilities"
+        ],
         "answer": [
             "Most hostels have shared toilets and bathrooms."
         ]
     },
     {
         "question": "general_features - limited_privacy at the University of Ibadan",
+        "keywords": [
+            "generalfeatures",
+            "limitedprivacy"
+        ],
         "answer": [
             "Rooms often accommodate multiple students."
         ]
     },
     {
         "question": "general_features - basic_amenities at the University of Ibadan",
+        "keywords": [
+            "basicamenities",
+            "generalfeatures"
+        ],
         "answer": [
             "Access to university facilities like libraries and sports centers."
         ]
     },
     {
         "question": "general_features - solar_facilities at the University of Ibadan",
+        "keywords": [
+            "generalfeatures",
+            "solarfacilities"
+        ],
         "answer": [
             "Some hostels may have solar-powered lighting and charging points for phones and laptops."
         ]
     },
     {
         "question": "transportation_options - tricycles at the University of Ibadan",
+        "keywords": [
+            "transportationoptions",
+            "tricycles"
+        ],
         "answer": [
             "Primary mode of transportation on campus, replacing motorcycles for safety reasons."
         ]
     },
     {
         "question": "transportation_options - taxis at the University of Ibadan",
+        "keywords": [
+            "transportationoptions",
+            "taxis"
+        ],
         "answer": [
             "Available for longer distances or charter services."
         ]
     },
     {
         "question": "transportation_options - walking at the University of Ibadan",
+        "keywords": [
+            "walking",
+            "transportationoptions"
+        ],
         "answer": [
             "Preferred by many students due to the campus's layout and proximity of facilities."
         ]
     },
     {
         "question": "transportation_costs - tricycle_fares at the University of Ibadan",
+        "keywords": [
+            "tricyclefares",
+            "transportationcosts"
+        ],
         "answer": [
             {
                 "standard_routes": "\u20a6150 - \u20a6250, depending on the destination.",
@@ -2019,102 +2672,170 @@ qa_data = [
     },
     {
         "question": "transportation_costs - taxi_fares at the University of Ibadan",
+        "keywords": [
+            "taxifares",
+            "transportationcosts"
+        ],
         "answer": [
             "Generally more expensive than tricycle fares, but specific rates are not detailed."
         ]
     },
     {
         "question": "routes_and_fares - main_gate_to_benue_road_faculty_of_education_faculty_of_agriculture_faculty_of_technology at the University of Ibadan",
+        "keywords": [
+            "routesandfares",
+            "maingatetobenueroadfacultyofeducationfacultyofagriculturefacultyoftechnology"
+        ],
         "answer": [
             "\u20a6150"
         ]
     },
     {
         "question": "routes_and_fares - main_gate_to_pg_college_staff_club_anatomy at the University of Ibadan",
+        "keywords": [
+            "routesandfares",
+            "maingatetopgcollegestaffclubanatomy"
+        ],
         "answer": [
             "\u20a6150"
         ]
     },
     {
         "question": "routes_and_fares - main_gate_to_ui_coop_maintenance_diamond_fm_staff_school at the University of Ibadan",
+        "keywords": [
+            "routesandfares",
+            "maingatetouicoopmaintenancediamondfmstaffschool"
+        ],
         "answer": [
             "\u20a6200"
         ]
     },
     {
         "question": "routes_and_fares - dlc_sasa_paulesi_adebayo_akande_hall at the University of Ibadan",
+        "keywords": [
+            "routesandfares",
+            "dlcsasapaulesiadebayoakandehall"
+        ],
         "answer": [
             "\u20a6250"
         ]
     },
     {
         "question": "routes_and_fares - ipps_and_cpeel at the University of Ibadan",
+        "keywords": [
+            "routesandfares",
+            "ippsandcpeel"
+        ],
         "answer": [
             "\u20a6250"
         ]
     },
     {
         "question": "routes_and_fares - university_of_ibadan_ajibode_extension at the University of Ibadan",
+        "keywords": [
+            "routesandfares",
+            "universityofibadanajibodeextension"
+        ],
         "answer": [
             "\u20a6250"
         ]
     },
     {
         "question": "safety_and_regulations - motorcycle_replacement at the University of Ibadan",
+        "keywords": [
+            "safetyandregulations",
+            "motorcyclereplacement"
+        ],
         "answer": [
             "Motorcycles have been replaced with tricycles for safety reasons."
         ]
     },
     {
         "question": "safety_and_regulations - security_measures at the University of Ibadan",
+        "keywords": [
+            "safetyandregulations",
+            "securitymeasures"
+        ],
         "answer": [
             "Implemented to reduce accidents and criminal activities on campus."
         ]
     },
     {
         "question": "food_costs - cafeteria_meals at the University of Ibadan",
+        "keywords": [
+            "cafeteriameals",
+            "foodcosts"
+        ],
         "answer": [
             "\u20a6500 - \u20a62,000 per meal."
         ]
     },
     {
         "question": "food_costs - groceries at the University of Ibadan",
+        "keywords": [
+            "groceries",
+            "foodcosts"
+        ],
         "answer": [
             "\u20a630,000 - \u20a650,000 per month for a single person."
         ]
     },
     {
         "question": "food_costs - snacks at the University of Ibadan",
+        "keywords": [
+            "snacks",
+            "foodcosts"
+        ],
         "answer": [
             "Generally affordable, often less than \u20a6500 (e.g., beans and bread, akara)."
         ]
     },
     {
         "question": "internet_costs - mobile_data at the University of Ibadan",
+        "keywords": [
+            "mobiledata",
+            "internetcosts"
+        ],
         "answer": [
             "\u20a63,000 - \u20a610,000 per month for reliable data plans."
         ]
     },
     {
         "question": "internet_costs - broadband_internet at the University of Ibadan",
+        "keywords": [
+            "broadbandinternet",
+            "internetcosts"
+        ],
         "answer": [
             "\u20a610,000 - \u20a620,000 per month for shared accommodations."
         ]
     },
     {
         "question": "utilities - electricity_and_water_bills at the University of Ibadan",
+        "keywords": [
+            "utilities",
+            "electricityandwaterbills"
+        ],
         "answer": [
             "\u20a65,000 - \u20a615,000 per month for average usage."
         ]
     },
     {
         "question": "utilities - solar_facilities at the University of Ibadan",
+        "keywords": [
+            "utilities",
+            "solarfacilities"
+        ],
         "answer": [
             "Some hostels have solar-powered lighting and charging points for phones and laptops."
         ]
     },
     {
         "question": "other_expenses - transportation at the University of Ibadan",
+        "keywords": [
+            "transportation",
+            "otherexpenses"
+        ],
         "answer": [
             {
                 "tricycle_fares": "\u20a6150 - \u20a6250 per trip.",
@@ -2124,48 +2845,80 @@ qa_data = [
     },
     {
         "question": "other_expenses - mobile_phone_recharge at the University of Ibadan",
+        "keywords": [
+            "mobilephonerecharge",
+            "otherexpenses"
+        ],
         "answer": [
             "\u20a63,000 - \u20a610,000 per month."
         ]
     },
     {
         "question": "other_expenses - entertainment_and_leisure at the University of Ibadan",
+        "keywords": [
+            "entertainmentandleisure",
+            "otherexpenses"
+        ],
         "answer": [
             "\u20a65,000 - \u20a615,000 per outing."
         ]
     },
     {
         "question": "general_living_expenses - basic_meals at the University of Ibadan",
+        "keywords": [
+            "basicmeals",
+            "generallivingexpenses"
+        ],
         "answer": [
             "\u20a6500 - \u20a62,000."
         ]
     },
     {
         "question": "general_living_expenses - snacks at the University of Ibadan",
+        "keywords": [
+            "snacks",
+            "generallivingexpenses"
+        ],
         "answer": [
             "Less than \u20a6500."
         ]
     },
     {
         "question": "general_living_expenses - transportation_on_campus at the University of Ibadan",
+        "keywords": [
+            "transportationoncampus",
+            "generallivingexpenses"
+        ],
         "answer": [
             "Varies based on distance and mode of transport."
         ]
     },
     {
         "question": "general_living_expenses - acceptance_fee at the University of Ibadan",
+        "keywords": [
+            "acceptancefee",
+            "generallivingexpenses"
+        ],
         "answer": [
             "\u20a650,000."
         ]
     },
     {
         "question": "recent_fee_increases - new_intakes at the University of Ibadan",
+        "keywords": [
+            "recentfeeincreases",
+            "newintakes"
+        ],
         "answer": [
             "Recently increased fees range from \u20a6203,000 to \u20a6412,000, depending on the course."
         ]
     },
     {
         "question": "administrative_services - administrative_data_processing_unit at the University of Ibadan",
+        "keywords": [
+            "administrativedataprocessingunit",
+            "administrativeservices"
+        ],
         "answer": [
             {
                 "responsibilities": "Issuance and processing of student forms, matriculation oaths, and bio-data forms.",
@@ -2175,6 +2928,10 @@ qa_data = [
     },
     {
         "question": "administrative_services - certificate_room_section at the University of Ibadan",
+        "keywords": [
+            "certificateroomsection",
+            "administrativeservices"
+        ],
         "answer": [
             {
                 "responsibilities": "Custody and issuance of university certificates, printing of blank certificates, and calligraphic scripting.",
@@ -2184,6 +2941,10 @@ qa_data = [
     },
     {
         "question": "administrative_services - central_store at the University of Ibadan",
+        "keywords": [
+            "centralstore",
+            "administrativeservices"
+        ],
         "answer": [
             {
                 "responsibilities": "Production and maintenance of academic outfits, custody of examination materials.",
@@ -2193,6 +2954,10 @@ qa_data = [
     },
     {
         "question": "administrative_services - bursary_unit at the University of Ibadan",
+        "keywords": [
+            "bursaryunit",
+            "administrativeservices"
+        ],
         "answer": [
             {
                 "responsibilities": "Financial management and services.",
@@ -2202,6 +2967,10 @@ qa_data = [
     },
     {
         "question": "support_services - university_health_services at the University of Ibadan",
+        "keywords": [
+            "universityhealthservices",
+            "supportservices"
+        ],
         "answer": [
             {
                 "services": "General outpatient clinic, specialized medical services.",
@@ -2211,6 +2980,10 @@ qa_data = [
     },
     {
         "question": "support_services - ict_support at the University of Ibadan",
+        "keywords": [
+            "ictsupport",
+            "supportservices"
+        ],
         "answer": [
             {
                 "services": "IT infrastructure management and support.",
@@ -2220,6 +2993,10 @@ qa_data = [
     },
     {
         "question": "support_services - equipment_maintenance at the University of Ibadan",
+        "keywords": [
+            "equipmentmaintenance",
+            "supportservices"
+        ],
         "answer": [
             {
                 "services": "Maintenance of university equipment.",
@@ -2229,6 +3006,10 @@ qa_data = [
     },
     {
         "question": "support_services - physical_infrastructure_upgrade at the University of Ibadan",
+        "keywords": [
+            "physicalinfrastructureupgrade",
+            "supportservices"
+        ],
         "answer": [
             {
                 "services": "Oversight of physical infrastructure projects.",
@@ -2238,6 +3019,10 @@ qa_data = [
     },
     {
         "question": "support_services - general_services_division_college_of_medicine at the University of Ibadan",
+        "keywords": [
+            "generalservicesdivisioncollegeofmedicine",
+            "supportservices"
+        ],
         "answer": [
             {
                 "services": "Maintenance and supervision of college properties, allocation of lecture theaters and halls.",
@@ -2247,6 +3032,10 @@ qa_data = [
     },
     {
         "question": "other_services - office_of_international_programmes at the University of Ibadan",
+        "keywords": [
+            "officeofinternationalprogrammes",
+            "otherservices"
+        ],
         "answer": [
             {
                 "services": "Coordination of international collaborations and programs.",
@@ -2256,6 +3045,10 @@ qa_data = [
     },
     {
         "question": "other_services - quality_assurance at the University of Ibadan",
+        "keywords": [
+            "qualityassurance",
+            "otherservices"
+        ],
         "answer": [
             {
                 "services": "Ensures academic standards and quality.",
@@ -2265,6 +3058,10 @@ qa_data = [
     },
     {
         "question": "other_services - ui_servicom at the University of Ibadan",
+        "keywords": [
+            "uiservicom",
+            "otherservices"
+        ],
         "answer": [
             {
                 "services": "Service charter implementation for improved customer service.",
@@ -2274,6 +3071,10 @@ qa_data = [
     },
     {
         "question": "other_services - office_of_alumni_relations at the University of Ibadan",
+        "keywords": [
+            "officeofalumnirelations",
+            "otherservices"
+        ],
         "answer": [
             {
                 "services": "Engagement with alumni for university development.",
@@ -2283,6 +3084,10 @@ qa_data = [
     },
     {
         "question": "contact_details - phone_numbers at the University of Ibadan",
+        "keywords": [
+            "contactdetails",
+            "phonenumbers"
+        ],
         "answer": [
             {
                 "main_contact": "+234 2 810 1100, +234 400 550 614, Mobile: +234 809 224 5372",
@@ -2292,6 +3097,10 @@ qa_data = [
     },
     {
         "question": "contact_details - email_addresses at the University of Ibadan",
+        "keywords": [
+            "emailaddresses",
+            "contactdetails"
+        ],
         "answer": [
             {
                 "general_enquiries": "Use the contact form on the university's website.",
@@ -2302,6 +3111,10 @@ qa_data = [
     },
     {
         "question": "contact_details - fax at the University of Ibadan",
+        "keywords": [
+            "fax",
+            "contactdetails"
+        ],
         "answer": [
             {
                 "main_contact": "+234 809 810 3043",
@@ -2311,12 +3124,20 @@ qa_data = [
     },
     {
         "question": "contact_details - website at the University of Ibadan",
+        "keywords": [
+            "contactdetails",
+            "website"
+        ],
         "answer": [
             "www.ui.edu.ng"
         ]
     },
     {
         "question": "support_channels - postgraduate_college at the University of Ibadan",
+        "keywords": [
+            "supportchannels",
+            "postgraduatecollege"
+        ],
         "answer": [
             {
                 "live_chat": "Available from 9:00 AM to 4:00 PM",
@@ -2326,6 +3147,10 @@ qa_data = [
     },
     {
         "question": "support_channels - information_technology_unit at the University of Ibadan",
+        "keywords": [
+            "supportchannels",
+            "informationtechnologyunit"
+        ],
         "answer": [
             {
                 "phone_lines": {
@@ -2339,6 +3164,10 @@ qa_data = [
     },
     {
         "question": "support_channels - registry_unit at the University of Ibadan",
+        "keywords": [
+            "supportchannels",
+            "registryunit"
+        ],
         "answer": [
             {
                 "services": "Provides administrative support and advice on university regulations."
@@ -2347,6 +3176,10 @@ qa_data = [
     },
     {
         "question": "counseling_services - department_of_guidance_and_counselling at the University of Ibadan",
+        "keywords": [
+            "departmentofguidanceandcounselling",
+            "counselingservices"
+        ],
         "answer": [
             {
                 "services": [
@@ -2367,6 +3200,10 @@ qa_data = [
     },
     {
         "question": "counseling_services - university_health_services at the University of Ibadan",
+        "keywords": [
+            "universityhealthservices",
+            "counselingservices"
+        ],
         "answer": [
             {
                 "counseling_clinic": "Provides 24-hour counseling services as part of its mental health support.",
@@ -2384,6 +3221,10 @@ qa_data = [
     },
     {
         "question": "counseling_services - career_development_and_counselling_centre at the University of Ibadan",
+        "keywords": [
+            "counselingservices",
+            "careerdevelopmentandcounsellingcentre"
+        ],
         "answer": [
             {
                 "services": "Focuses on career development and counseling to support students in their professional paths.",
@@ -2393,24 +3234,40 @@ qa_data = [
     },
     {
         "question": "support_channels - phone_numbers at the University of Ibadan",
+        "keywords": [
+            "supportchannels",
+            "phonenumbers"
+        ],
         "answer": [
             "General university contact numbers can be used to reach counseling services."
         ]
     },
     {
         "question": "support_channels - email_addresses at the University of Ibadan",
+        "keywords": [
+            "supportchannels",
+            "emailaddresses"
+        ],
         "answer": [
             "Specific email addresses for counseling services are not detailed, but the university\u2019s contact form can be used."
         ]
     },
     {
         "question": "support_channels - walk_in_services at the University of Ibadan",
+        "keywords": [
+            "supportchannels",
+            "walkinservices"
+        ],
         "answer": [
             "Many counseling services are available on a walk-in basis, especially at the UHS."
         ]
     },
     {
         "question": "university_health_services - jaja_clinic at the University of Ibadan",
+        "keywords": [
+            "universityhealthservices",
+            "jajaclinic"
+        ],
         "answer": [
             {
                 "location": "Located on campus, the Jaja Clinic provides primary healthcare services to students.",
@@ -2425,12 +3282,20 @@ qa_data = [
     },
     {
         "question": "university_college_hospital - location at the University of Ibadan",
+        "keywords": [
+            "universitycollegehospital",
+            "location"
+        ],
         "answer": [
             "Strategically located near the university, UCH is a federal teaching hospital attached to the University of Ibadan."
         ]
     },
     {
         "question": "university_college_hospital - services at the University of Ibadan",
+        "keywords": [
+            "services",
+            "universitycollegehospital"
+        ],
         "answer": [
             {
                 "tertiary_healthcare": "Provides advanced medical services across various specialties.",
@@ -2441,12 +3306,20 @@ qa_data = [
     },
     {
         "question": "institute_of_child_health - location at the University of Ibadan",
+        "keywords": [
+            "instituteofchildhealth",
+            "location"
+        ],
         "answer": [
             "Situated within the College of Medicine, UCH."
         ]
     },
     {
         "question": "institute_of_child_health - services at the University of Ibadan",
+        "keywords": [
+            "services",
+            "instituteofchildhealth"
+        ],
         "answer": [
             {
                 "child_and_adolescent_health": "Focuses on research, training, and services related to child health.",
@@ -2460,30 +3333,50 @@ qa_data = [
     },
     {
         "question": "other_facilities - x_ray_and_screening_centers at the University of Ibadan",
+        "keywords": [
+            "otherfacilities",
+            "xrayandscreeningcenters"
+        ],
         "answer": [
             "Various faculties have designated centers for medical screening, including the College of Clinical Sciences and Veterinary Medicine."
         ]
     },
     {
         "question": "key_features - collaboration at the University of Ibadan",
+        "keywords": [
+            "keyfeatures",
+            "collaboration"
+        ],
         "answer": [
             "The University of Ibadan and UCH work closely in healthcare training and research."
         ]
     },
     {
         "question": "key_features - accessibility at the University of Ibadan",
+        "keywords": [
+            "keyfeatures",
+            "accessibility"
+        ],
         "answer": [
             "Both the Jaja Clinic and UCH provide accessible healthcare options for students and the broader community."
         ]
     },
     {
         "question": "key_features - specialized_services at the University of Ibadan",
+        "keywords": [
+            "keyfeatures",
+            "specializedservices"
+        ],
         "answer": [
             "UCH offers specialized departments like nuclear medicine, cardiology, and geriatric care."
         ]
     },
     {
         "question": "internship_opportunities - career_guidance_and_counselling_unit at the University of Ibadan",
+        "keywords": [
+            "internshipopportunities",
+            "careerguidanceandcounsellingunit"
+        ],
         "answer": [
             {
                 "description": "Collaborates with corporate organizations to offer internships and career talks for students.",
@@ -2496,6 +3389,10 @@ qa_data = [
     },
     {
         "question": "internship_opportunities - shell_nigeria_siwes_programme at the University of Ibadan",
+        "keywords": [
+            "internshipopportunities",
+            "shellnigeriasiwesprogramme"
+        ],
         "answer": [
             {
                 "description": "Offers internships to Nigerian students in higher institutions, focusing on engineering, geosciences, IT, sciences, social sciences, and commercial fields.",
@@ -2508,6 +3405,10 @@ qa_data = [
     },
     {
         "question": "internship_opportunities - college_research_and_innovation_management at the University of Ibadan",
+        "keywords": [
+            "internshipopportunities",
+            "collegeresearchandinnovationmanagement"
+        ],
         "answer": [
             {
                 "description": "Provides internship opportunities for students to gain relevant career experience in research and innovation."
@@ -2516,6 +3417,10 @@ qa_data = [
     },
     {
         "question": "internship_opportunities - university_of_ibadan_internship_portal at the University of Ibadan",
+        "keywords": [
+            "internshipopportunities",
+            "universityofibadaninternshipportal"
+        ],
         "answer": [
             {
                 "description": "Manages internship placements for students, though currently closed for new applications."
@@ -2524,6 +3429,10 @@ qa_data = [
     },
     {
         "question": "job_placement_services - career_guidance_and_counselling_unit at the University of Ibadan",
+        "keywords": [
+            "careerguidanceandcounsellingunit",
+            "jobplacementservices"
+        ],
         "answer": [
             {
                 "description": "Organizes career talks and interviews with corporate organizations, leading to job placements for students."
@@ -2532,6 +3441,10 @@ qa_data = [
     },
     {
         "question": "job_placement_services - university_of_ibadan_work_and_study_scheme at the University of Ibadan",
+        "keywords": [
+            "universityofibadanworkandstudyscheme",
+            "jobplacementservices"
+        ],
         "answer": [
             {
                 "description": "Offers part-time jobs to students to help them earn while studying.",
@@ -2545,6 +3458,10 @@ qa_data = [
     },
     {
         "question": "job_placement_services - university_recruitment at the University of Ibadan",
+        "keywords": [
+            "universityrecruitment",
+            "jobplacementservices"
+        ],
         "answer": [
             {
                 "description": "Occasionally posts job openings for academic and administrative roles."
@@ -2553,12 +3470,20 @@ qa_data = [
     },
     {
         "question": "support_channels - phone_numbers at the University of Ibadan",
+        "keywords": [
+            "supportchannels",
+            "phonenumbers"
+        ],
         "answer": [
             "General university contact numbers can be used to reach relevant departments for internship and job placement inquiries."
         ]
     },
     {
         "question": "support_channels - email_addresses at the University of Ibadan",
+        "keywords": [
+            "supportchannels",
+            "emailaddresses"
+        ],
         "answer": [
             {
                 "shell_siwes": "SPDC-2025SiwesRecruitment@shell.com"
@@ -2567,12 +3492,20 @@ qa_data = [
     },
     {
         "question": "support_channels - online_portals at the University of Ibadan",
+        "keywords": [
+            "onlineportals",
+            "supportchannels"
+        ],
         "answer": [
             "The university's internship portal and career guidance unit website provide resources for students seeking internships and job placements."
         ]
     },
     {
         "question": "alumni_network - university_of_ibadan_alumni_association_uiia at the University of Ibadan",
+        "keywords": [
+            "alumninetwork",
+            "universityofibadanalumniassociationuiia"
+        ],
         "answer": [
             {
                 "description": "The official alumni body of the university, connecting graduates worldwide.",
@@ -2591,6 +3524,10 @@ qa_data = [
     },
     {
         "question": "alumni_network - global_presence at the University of Ibadan",
+        "keywords": [
+            "alumninetwork",
+            "globalpresence"
+        ],
         "answer": [
             {
                 "description": "UI's alumni network includes notable figures in literature, politics, business, and academia.",
@@ -2604,6 +3541,10 @@ qa_data = [
     },
     {
         "question": "alumni_network - alumni_directory at the University of Ibadan",
+        "keywords": [
+            "alumninetwork",
+            "alumnidirectory"
+        ],
         "answer": [
             {
                 "description": "The university is compiling an alumni directory to enhance connections among graduates.",
@@ -2613,6 +3554,10 @@ qa_data = [
     },
     {
         "question": "alumni_network - university_of_ibadan_alumni_global_network at the University of Ibadan",
+        "keywords": [
+            "alumninetwork",
+            "universityofibadanalumniglobalnetwork"
+        ],
         "answer": [
             {
                 "description": "Recognizes distinguished alumni worldwide.",
@@ -2622,6 +3567,10 @@ qa_data = [
     },
     {
         "question": "opportunities_for_students_and_graduates - mentorship_programs at the University of Ibadan",
+        "keywords": [
+            "opportunitiesforstudentsandgraduates",
+            "mentorshipprograms"
+        ],
         "answer": [
             {
                 "description": "Alumni mentor students through career guidance programs organized by the Career Guidance and Counselling Unit."
@@ -2630,6 +3579,10 @@ qa_data = [
     },
     {
         "question": "opportunities_for_students_and_graduates - networking_events at the University of Ibadan",
+        "keywords": [
+            "opportunitiesforstudentsandgraduates",
+            "networkingevents"
+        ],
         "answer": [
             {
                 "description": "Reunions and conferences provide opportunities to connect with successful alumni for internships, job placements, and collaborations."
@@ -2638,6 +3591,10 @@ qa_data = [
     },
     {
         "question": "opportunities_for_students_and_graduates - awards_and_recognition at the University of Ibadan",
+        "keywords": [
+            "opportunitiesforstudentsandgraduates",
+            "awardsandrecognition"
+        ],
         "answer": [
             {
                 "description": "The alumni association honors outstanding individuals to inspire younger generations."
@@ -2646,6 +3603,10 @@ qa_data = [
     },
     {
         "question": "opportunities_for_students_and_graduates - job_placement_and_internships at the University of Ibadan",
+        "keywords": [
+            "opportunitiesforstudentsandgraduates",
+            "jobplacementandinternships"
+        ],
         "answer": [
             {
                 "description": "Alumni connections help facilitate job placements and internships for graduates through industry partnerships."
@@ -2654,6 +3615,10 @@ qa_data = [
     },
     {
         "question": "opportunities_for_students_and_graduates - scholarships_and_endowments at the University of Ibadan",
+        "keywords": [
+            "opportunitiesforstudentsandgraduates",
+            "scholarshipsandendowments"
+        ],
         "answer": [
             {
                 "description": "Alumni contribute to scholarship funds to support indigent or high-achieving students."
@@ -2662,6 +3627,10 @@ qa_data = [
     },
     {
         "question": "opportunities_for_students_and_graduates - community_development_projects at the University of Ibadan",
+        "keywords": [
+            "opportunitiesforstudentsandgraduates",
+            "communitydevelopmentprojects"
+        ],
         "answer": [
             {
                 "description": "Alumni collaborate with the university on impactful community projects, allowing student participation."
@@ -2670,6 +3639,9 @@ qa_data = [
     },
     {
         "question": "notable_alumni at the University of Ibadan",
+        "keywords": [
+            "notablealumni"
+        ],
         "answer": [
             "Wole Soyinka (Nobel Prize Winner in Literature)",
             "Chinua Achebe (Author of 'Things Fall Apart')",
@@ -2681,12 +3653,20 @@ qa_data = [
     },
     {
         "question": "contact_channels - official_website at the University of Ibadan",
+        "keywords": [
+            "officialwebsite",
+            "contactchannels"
+        ],
         "answer": [
             "www.ui.edu.ng"
         ]
     },
     {
         "question": "contact_channels - email at the University of Ibadan",
+        "keywords": [
+            "email",
+            "contactchannels"
+        ],
         "answer": [
             "uialumni@ui.edu.ng",
             "uiaa60@yahoo.com"
@@ -2694,18 +3674,29 @@ qa_data = [
     },
     {
         "question": "contact_channels - phone at the University of Ibadan",
+        "keywords": [
+            "contactchannels",
+            "phone"
+        ],
         "answer": [
             "+2348179236929"
         ]
     },
     {
         "question": "overview at the University of Ibadan",
+        "keywords": [
+            "overview"
+        ],
         "answer": [
             "The University of Ibadan (UI) is a leading institution in Nigeria for research, innovation, and technology development. It fosters innovation, commercializes research outcomes, and addresses societal challenges through technology."
         ]
     },
     {
         "question": "key_initiatives_and_programs - commercialization_of_research_and_innovation at the University of Ibadan",
+        "keywords": [
+            "keyinitiativesandprograms",
+            "commercializationofresearchandinnovation"
+        ],
         "answer": [
             {
                 "description": "UI has a dedicated committee to commercialize patents and intellectual properties developed by researchers.",
@@ -2721,6 +3712,10 @@ qa_data = [
     },
     {
         "question": "key_initiatives_and_programs - university_of_ibadan_research_foundation_uirf at the University of Ibadan",
+        "keywords": [
+            "keyinitiativesandprograms",
+            "universityofibadanresearchfoundationuirf"
+        ],
         "answer": [
             {
                 "description": "Funds interdisciplinary research projects addressing national development challenges.",
@@ -2735,6 +3730,10 @@ qa_data = [
     },
     {
         "question": "key_initiatives_and_programs - college_research_and_innovation_hub_crih at the University of Ibadan",
+        "keywords": [
+            "keyinitiativesandprograms",
+            "collegeresearchandinnovationhubcrih"
+        ],
         "answer": [
             {
                 "location": "College of Medicine",
@@ -2745,6 +3744,10 @@ qa_data = [
     },
     {
         "question": "key_initiatives_and_programs - geo_hackathon_for_urban_resilience at the University of Ibadan",
+        "keywords": [
+            "keyinitiativesandprograms",
+            "geohackathonforurbanresilience"
+        ],
         "answer": [
             {
                 "partnership": "Collaborates with Oyo State's Urban Renewal Project.",
@@ -2754,6 +3757,10 @@ qa_data = [
     },
     {
         "question": "key_initiatives_and_programs - international_innovation_conference at the University of Ibadan",
+        "keywords": [
+            "keyinitiativesandprograms",
+            "internationalinnovationconference"
+        ],
         "answer": [
             {
                 "event": "Held during UI\u2019s 75th anniversary in 2024.",
@@ -2764,6 +3771,9 @@ qa_data = [
     },
     {
         "question": "focus_areas_of_innovation at the University of Ibadan",
+        "keywords": [
+            "focusareasofinnovation"
+        ],
         "answer": [
             "Agriculture",
             "Energy",
@@ -2773,48 +3783,79 @@ qa_data = [
     },
     {
         "question": "opportunities_for_students - internship_programs at the University of Ibadan",
+        "keywords": [
+            "internshipprograms",
+            "opportunitiesforstudents"
+        ],
         "answer": [
             "Students engage in internships linked to research projects or industry collaborations."
         ]
     },
     {
         "question": "opportunities_for_students - mentorship_initiatives at the University of Ibadan",
+        "keywords": [
+            "mentorshipinitiatives",
+            "opportunitiesforstudents"
+        ],
         "answer": [
             "Faculty members mentor students in research projects through hubs like CRIH."
         ]
     },
     {
         "question": "opportunities_for_students - hackathons_and_competitions at the University of Ibadan",
+        "keywords": [
+            "hackathonsandcompetitions",
+            "opportunitiesforstudents"
+        ],
         "answer": [
             "Events like the Geo-Hackathon provide platforms for students to showcase innovative ideas."
         ]
     },
     {
         "question": "opportunities_for_students - collaborative_research_grants at the University of Ibadan",
+        "keywords": [
+            "collaborativeresearchgrants",
+            "opportunitiesforstudents"
+        ],
         "answer": [
             "Graduate assistants participate in interdisciplinary research funded by UI or external partners."
         ]
     },
     {
         "question": "challenges - funding_constraints at the University of Ibadan",
+        "keywords": [
+            "challenges",
+            "fundingconstraints"
+        ],
         "answer": [
             "UI faces financial challenges that limit the full potential of its innovation programs."
         ]
     },
     {
         "question": "challenges - commercialization_bottlenecks at the University of Ibadan",
+        "keywords": [
+            "challenges",
+            "commercializationbottlenecks"
+        ],
         "answer": [
             "Stronger industry partnerships are needed to turn research into market-ready products."
         ]
     },
     {
         "question": "overview at the University of Ibadan",
+        "keywords": [
+            "overview"
+        ],
         "answer": [
             "The University of Ibadan (UI) offers a variety of online learning resources to support both regular and distance learning students."
         ]
     },
     {
         "question": "online_learning_platforms_and_resources - distance_learning_centre_dlc at the University of Ibadan",
+        "keywords": [
+            "distancelearningcentredlc",
+            "onlinelearningplatformsandresources"
+        ],
         "answer": [
             {
                 "description": "UI operates an Open Distance eLearning (ODeL) mode through its Distance Learning Centre (UIDLC).",
@@ -2825,6 +3866,10 @@ qa_data = [
     },
     {
         "question": "online_learning_platforms_and_resources - learning_management_system_lms at the University of Ibadan",
+        "keywords": [
+            "onlinelearningplatformsandresources",
+            "learningmanagementsystemlms"
+        ],
         "answer": [
             {
                 "description": "A central platform for online course delivery.",
@@ -2840,6 +3885,10 @@ qa_data = [
     },
     {
         "question": "online_learning_platforms_and_resources - coursera_for_campus at the University of Ibadan",
+        "keywords": [
+            "courseraforcampus",
+            "onlinelearningplatformsandresources"
+        ],
         "answer": [
             {
                 "description": "UI partners with Coursera to offer free access to over 3,800 courses.",
@@ -2849,6 +3898,10 @@ qa_data = [
     },
     {
         "question": "online_learning_platforms_and_resources - library_based_online_resources at the University of Ibadan",
+        "keywords": [
+            "librarybasedonlineresources",
+            "onlinelearningplatformsandresources"
+        ],
         "answer": [
             {
                 "description": "The Kenneth Dike Library provides various digital resources.",
@@ -2865,6 +3918,10 @@ qa_data = [
     },
     {
         "question": "online_learning_platforms_and_resources - pedagogical_leadership_in_africa_pedal_project at the University of Ibadan",
+        "keywords": [
+            "pedagogicalleadershipinafricapedalproject",
+            "onlinelearningplatformsandresources"
+        ],
         "answer": [
             {
                 "description": "UI has trained over 400 academic staff in technology-based teaching.",
@@ -2874,48 +3931,80 @@ qa_data = [
     },
     {
         "question": "features_of_online_learning_resources - accessibility at the University of Ibadan",
+        "keywords": [
+            "accessibility",
+            "featuresofonlinelearningresources"
+        ],
         "answer": [
             "Students can access resources from anywhere with an internet connection."
         ]
     },
     {
         "question": "features_of_online_learning_resources - interactivity at the University of Ibadan",
+        "keywords": [
+            "interactivity",
+            "featuresofonlinelearningresources"
+        ],
         "answer": [
             "Platforms include discussion forums, quizzes, and live sessions."
         ]
     },
     {
         "question": "features_of_online_learning_resources - flexibility at the University of Ibadan",
+        "keywords": [
+            "flexibility",
+            "featuresofonlinelearningresources"
+        ],
         "answer": [
             "Designed for working professionals and remote learners."
         ]
     },
     {
         "question": "features_of_online_learning_resources - comprehensive_coverage at the University of Ibadan",
+        "keywords": [
+            "comprehensivecoverage",
+            "featuresofonlinelearningresources"
+        ],
         "answer": [
             "Includes undergraduate programs, professional certifications, and postgraduate research support."
         ]
     },
     {
         "question": "challenges - internet_connectivity at the University of Ibadan",
+        "keywords": [
+            "challenges",
+            "internetconnectivity"
+        ],
         "answer": [
             "Poor internet infrastructure in some areas may limit access."
         ]
     },
     {
         "question": "challenges - awareness at the University of Ibadan",
+        "keywords": [
+            "awareness",
+            "challenges"
+        ],
         "answer": [
             "Some students are unaware of available resources and how to use them effectively."
         ]
     },
     {
         "question": "challenges - technical_skills at the University of Ibadan",
+        "keywords": [
+            "technicalskills",
+            "challenges"
+        ],
         "answer": [
             "Limited IT skills can hinder the effective use of e-learning platforms."
         ]
     },
     {
         "question": "how_to_access_online_resources - uidlc_student_portal at the University of Ibadan",
+        "keywords": [
+            "howtoaccessonlineresources",
+            "uidlcstudentportal"
+        ],
         "answer": [
             {
                 "url": "https://dlcportal.ui.edu.ng/login",
@@ -2925,6 +4014,10 @@ qa_data = [
     },
     {
         "question": "how_to_access_online_resources - coursera_access at the University of Ibadan",
+        "keywords": [
+            "howtoaccessonlineresources",
+            "courseraaccess"
+        ],
         "answer": [
             {
                 "instructions": "Use @stu.ui.edu.ng email to enroll for free courses."
@@ -2933,6 +4026,10 @@ qa_data = [
     },
     {
         "question": "how_to_access_online_resources - library_resources at the University of Ibadan",
+        "keywords": [
+            "howtoaccessonlineresources",
+            "libraryresources"
+        ],
         "answer": [
             {
                 "access_method": "Available through Kenneth Dike Library\u2019s digital platforms."
@@ -2941,6 +4038,10 @@ qa_data = [
     },
     {
         "question": "how_to_access_online_resources - support_channels at the University of Ibadan",
+        "keywords": [
+            "howtoaccessonlineresources",
+            "supportchannels"
+        ],
         "answer": [
             {
                 "technical_support": "For LMS or email issues, contact lmssupport@ui.edu.ng."
@@ -2949,12 +4050,19 @@ qa_data = [
     },
     {
         "question": "overview at the University of Ibadan",
+        "keywords": [
+            "overview"
+        ],
         "answer": [
             "The University of Ibadan (UI) provides a range of online learning resources to support regular and distance learning students."
         ]
     },
     {
         "question": "online_learning_platforms_and_resources - distance_learning_centre_dlc at the University of Ibadan",
+        "keywords": [
+            "distancelearningcentredlc",
+            "onlinelearningplatformsandresources"
+        ],
         "answer": [
             {
                 "description": "UI operates an Open Distance eLearning (ODeL) mode through its Distance Learning Centre (UIDLC).",
@@ -2965,6 +4073,10 @@ qa_data = [
     },
     {
         "question": "online_learning_platforms_and_resources - learning_management_system_lms at the University of Ibadan",
+        "keywords": [
+            "onlinelearningplatformsandresources",
+            "learningmanagementsystemlms"
+        ],
         "answer": [
             {
                 "description": "A platform for online course delivery accessible to all students.",
@@ -2980,6 +4092,10 @@ qa_data = [
     },
     {
         "question": "online_learning_platforms_and_resources - coursera_for_campus at the University of Ibadan",
+        "keywords": [
+            "courseraforcampus",
+            "onlinelearningplatformsandresources"
+        ],
         "answer": [
             {
                 "description": "UI partners with Coursera to provide free access to over 3,800 courses.",
@@ -2989,6 +4105,10 @@ qa_data = [
     },
     {
         "question": "online_learning_platforms_and_resources - library_based_online_resources at the University of Ibadan",
+        "keywords": [
+            "librarybasedonlineresources",
+            "onlinelearningplatformsandresources"
+        ],
         "answer": [
             {
                 "description": "The Kenneth Dike Library provides electronic learning resources.",
@@ -3005,6 +4125,10 @@ qa_data = [
     },
     {
         "question": "online_learning_platforms_and_resources - pedagogical_leadership_in_africa_pedal_project at the University of Ibadan",
+        "keywords": [
+            "pedagogicalleadershipinafricapedalproject",
+            "onlinelearningplatformsandresources"
+        ],
         "answer": [
             {
                 "description": "Over 400 academic staff have been trained in technology-based teaching through the PEDAL project.",
@@ -3014,48 +4138,80 @@ qa_data = [
     },
     {
         "question": "features_of_online_learning_resources - accessibility at the University of Ibadan",
+        "keywords": [
+            "accessibility",
+            "featuresofonlinelearningresources"
+        ],
         "answer": [
             "Students can access learning materials from any location with an internet connection."
         ]
     },
     {
         "question": "features_of_online_learning_resources - interactivity at the University of Ibadan",
+        "keywords": [
+            "interactivity",
+            "featuresofonlinelearningresources"
+        ],
         "answer": [
             "Platforms include discussion forums, quizzes, and live sessions."
         ]
     },
     {
         "question": "features_of_online_learning_resources - flexibility at the University of Ibadan",
+        "keywords": [
+            "flexibility",
+            "featuresofonlinelearningresources"
+        ],
         "answer": [
             "Resources are designed for working professionals, remote learners, and career advancement."
         ]
     },
     {
         "question": "features_of_online_learning_resources - comprehensive_coverage at the University of Ibadan",
+        "keywords": [
+            "comprehensivecoverage",
+            "featuresofonlinelearningresources"
+        ],
         "answer": [
             "Covers undergraduate programs, professional certifications, and postgraduate research support."
         ]
     },
     {
         "question": "challenges - internet_connectivity at the University of Ibadan",
+        "keywords": [
+            "challenges",
+            "internetconnectivity"
+        ],
         "answer": [
             "Limited internet infrastructure in some regions may affect access."
         ]
     },
     {
         "question": "challenges - awareness at the University of Ibadan",
+        "keywords": [
+            "awareness",
+            "challenges"
+        ],
         "answer": [
             "Many students are unaware of available resources and how to utilize them."
         ]
     },
     {
         "question": "challenges - technical_skills at the University of Ibadan",
+        "keywords": [
+            "technicalskills",
+            "challenges"
+        ],
         "answer": [
             "Some students lack the necessary IT skills for effective use of e-learning platforms."
         ]
     },
     {
         "question": "how_to_access_online_resources - uidlc_student_portal at the University of Ibadan",
+        "keywords": [
+            "howtoaccessonlineresources",
+            "uidlcstudentportal"
+        ],
         "answer": [
             {
                 "url": "https://dlcportal.ui.edu.ng/login",
@@ -3065,6 +4221,10 @@ qa_data = [
     },
     {
         "question": "how_to_access_online_resources - coursera_access at the University of Ibadan",
+        "keywords": [
+            "howtoaccessonlineresources",
+            "courseraaccess"
+        ],
         "answer": [
             {
                 "instructions": "Students should use their @stu.ui.edu.ng email address to sign up for free courses on Coursera."
@@ -3073,6 +4233,10 @@ qa_data = [
     },
     {
         "question": "how_to_access_online_resources - library_resources at the University of Ibadan",
+        "keywords": [
+            "howtoaccessonlineresources",
+            "libraryresources"
+        ],
         "answer": [
             {
                 "access_method": "Electronic materials are available through the Kenneth Dike Library\u2019s digital platforms."
@@ -3081,6 +4245,10 @@ qa_data = [
     },
     {
         "question": "how_to_access_online_resources - support_channels at the University of Ibadan",
+        "keywords": [
+            "howtoaccessonlineresources",
+            "supportchannels"
+        ],
         "answer": [
             {
                 "technical_support": "For LMS or email issues, students can contact lmssupport@ui.edu.ng."
@@ -3089,12 +4257,19 @@ qa_data = [
     },
     {
         "question": "overview at the University of Ibadan",
+        "keywords": [
+            "overview"
+        ],
         "answer": [
             "The University of Ibadan provides institutional internet connectivity for students, offering both free and paid options."
         ]
     },
     {
         "question": "free_wifi_services - availability at the University of Ibadan",
+        "keywords": [
+            "freewifiservices",
+            "availability"
+        ],
         "answer": [
             "All halls of residence (may not function optimally).",
             "All 13 faculties, covering 75% of the 107 departments.",
@@ -3103,24 +4278,40 @@ qa_data = [
     },
     {
         "question": "paid_wifi_services - locations at the University of Ibadan",
+        "keywords": [
+            "paidwifiservices",
+            "locations"
+        ],
         "answer": [
             "Main library"
         ]
     },
     {
         "question": "paid_wifi_services - cost at the University of Ibadan",
+        "keywords": [
+            "paidwifiservices",
+            "cost"
+        ],
         "answer": [
             "A small fee is charged for access."
         ]
     },
     {
         "question": "access_points - distribution at the University of Ibadan",
+        "keywords": [
+            "accesspoints",
+            "distribution"
+        ],
         "answer": [
             "Wi-Fi access points are distributed across academic and administrative areas."
         ]
     },
     {
         "question": "access_points - concentration at the University of Ibadan",
+        "keywords": [
+            "accesspoints",
+            "concentration"
+        ],
         "answer": [
             "Faculty Libraries",
             "Kenneth Dike Library (KDL)"
@@ -3128,48 +4319,82 @@ qa_data = [
     },
     {
         "question": "usage_restrictions - requirements at the University of Ibadan",
+        "keywords": [
+            "requirements",
+            "usagerestrictions"
+        ],
         "answer": [
             "Students must complete a Network Access Acceptable Use Agreement to gain access."
         ]
     },
     {
         "question": "usage_restrictions - eligibility at the University of Ibadan",
+        "keywords": [
+            "usagerestrictions",
+            "eligibility"
+        ],
         "answer": [
             "Only currently enrolled undergraduate students can use the service."
         ]
     },
     {
         "question": "challenges - wifi_performance at the University of Ibadan",
+        "keywords": [
+            "wifiperformance",
+            "challenges"
+        ],
         "answer": [
             "Free Wi-Fi in halls of residence may not function optimally."
         ]
     },
     {
         "question": "challenges - power_supply at the University of Ibadan",
+        "keywords": [
+            "challenges",
+            "powersupply"
+        ],
         "answer": [
             "Unstable power supply affects connectivity."
         ]
     },
     {
         "question": "challenges - bandwidth_limitations at the University of Ibadan",
+        "keywords": [
+            "bandwidthlimitations",
+            "challenges"
+        ],
         "answer": [
             "Bandwidth is limited due to reliance on middlemen rather than direct providers."
         ]
     },
     {
         "question": "future_plans - consideration at the University of Ibadan",
+        "keywords": [
+            "futureplans",
+            "consideration"
+        ],
         "answer": [
             "The university administration is exploring implementing fully functional paid Wi-Fi services for students."
         ]
     },
     {
         "question": "overview at the University of Ibadan",
+        "keywords": [
+            "overview"
+        ],
         "answer": [
             "The University of Ibadan (UI) collaborates with various tech companies and research bodies to promote innovation, technology adoption, and career development for students."
         ]
     },
     {
         "question": "key_partnerships - Innovate UK Business Connect at the University of Ibadan",
+        "keywords": [
+            "uk",
+            "innovate",
+            "connect",
+            "business",
+            "keypartnerships"
+        ],
         "answer": [
             {
                 "focus": "Commercialization of research and innovation outcomes.",
@@ -3179,6 +4404,11 @@ qa_data = [
     },
     {
         "question": "key_partnerships - Huawei Technologies at the University of Ibadan",
+        "keywords": [
+            "keypartnerships",
+            "huawei",
+            "technologies"
+        ],
         "answer": [
             {
                 "focus": "ICT training and job opportunities.",
@@ -3188,6 +4418,13 @@ qa_data = [
     },
     {
         "question": "key_partnerships - Infinix, UNESCO, and Google at the University of Ibadan",
+        "keywords": [
+            "google",
+            "and",
+            "infinix",
+            "unesco",
+            "keypartnerships"
+        ],
         "answer": [
             {
                 "focus": "STEM education and AI/robotics training.",
@@ -3197,6 +4434,14 @@ qa_data = [
     },
     {
         "question": "key_partnerships - Small and Medium Enterprises (SMEs) at the University of Ibadan",
+        "keywords": [
+            "medium",
+            "and",
+            "small",
+            "keypartnerships",
+            "smes",
+            "enterprises"
+        ],
         "answer": [
             {
                 "focus": "Entrepreneurship development.",
@@ -3206,6 +4451,12 @@ qa_data = [
     },
     {
         "question": "key_partnerships - OPay Scholarship Initiative at the University of Ibadan",
+        "keywords": [
+            "keypartnerships",
+            "initiative",
+            "scholarship",
+            "opay"
+        ],
         "answer": [
             {
                 "focus": "Education funding.",
@@ -3215,6 +4466,15 @@ qa_data = [
     },
     {
         "question": "research_collaborations - University of Ibadan Research Foundation (UIRF) at the University of Ibadan",
+        "keywords": [
+            "university",
+            "researchcollaborations",
+            "ibadan",
+            "uirf",
+            "foundation",
+            "research",
+            "of"
+        ],
         "answer": [
             {
                 "focus": "Interdisciplinary research.",
@@ -3224,6 +4484,15 @@ qa_data = [
     },
     {
         "question": "research_collaborations - College Research and Innovation Hub (CRIH) at the University of Ibadan",
+        "keywords": [
+            "college",
+            "researchcollaborations",
+            "and",
+            "crih",
+            "research",
+            "hub",
+            "innovation"
+        ],
         "answer": [
             {
                 "focus": "Medical research.",
@@ -3233,6 +4502,14 @@ qa_data = [
     },
     {
         "question": "technology_infrastructure_development - Infinix ICT Student Resource Centre at the University of Ibadan",
+        "keywords": [
+            "technologyinfrastructuredevelopment",
+            "ict",
+            "infinix",
+            "resource",
+            "centre",
+            "student"
+        ],
         "answer": [
             {
                 "focus": "Technological excellence.",
@@ -3242,6 +4519,12 @@ qa_data = [
     },
     {
         "question": "technology_infrastructure_development - Public-Private Partnerships (PPP) at the University of Ibadan",
+        "keywords": [
+            "technologyinfrastructuredevelopment",
+            "partnerships",
+            "publicprivate",
+            "ppp"
+        ],
         "answer": [
             {
                 "focus": "Infrastructure development.",
@@ -3251,6 +4534,10 @@ qa_data = [
     },
     {
         "question": "opportunities_for_students - training_programs at the University of Ibadan",
+        "keywords": [
+            "trainingprograms",
+            "opportunitiesforstudents"
+        ],
         "answer": [
             "Huawei's ICT certification courses.",
             "Infinix\u2019s hands-on AI and robotics workshops."
@@ -3258,6 +4545,10 @@ qa_data = [
     },
     {
         "question": "opportunities_for_students - job_fairs_and_career_development at the University of Ibadan",
+        "keywords": [
+            "jobfairsandcareerdevelopment",
+            "opportunitiesforstudents"
+        ],
         "answer": [
             "Huawei job fairs offering direct employment opportunities.",
             "SME networking events for entrepreneurship."
@@ -3265,12 +4556,20 @@ qa_data = [
     },
     {
         "question": "opportunities_for_students - scholarships at the University of Ibadan",
+        "keywords": [
+            "scholarships",
+            "opportunitiesforstudents"
+        ],
         "answer": [
             "OPay\u2019s 10-year scholarship program for talented students."
         ]
     },
     {
         "question": "opportunities_for_students - research_funding at the University of Ibadan",
+        "keywords": [
+            "researchfunding",
+            "opportunitiesforstudents"
+        ],
         "answer": [
             "Collaborative grants through UIRF for interdisciplinary research."
         ]
