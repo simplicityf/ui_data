@@ -92,7 +92,7 @@ qa_keyword = [
     {
         "question": "Faculty of Agriculture and Forestry at the University of Ibadan",
         "keywords": [
-            "faculty",
+            "faculties",
             "faculty of agriculture",
             "forestry",
             "agriculture and forestry",
@@ -115,7 +115,7 @@ qa_keyword = [
         "question": "Faculty of Arts at the University of Ibadan",
         "keywords": [
             "arts department",
-            "faculty",
+            "faculties",
             "faculty of arts",
             "theatre arts"
         ],
@@ -153,7 +153,7 @@ qa_keyword = [
         "question": "Faculty of Education at the University of Ibadan",
         "keywords": [
             "faculty of education",
-            "faculty",
+            "faculties",
             "education department",
             "adult education",
             "ui teacher education",
@@ -210,7 +210,7 @@ qa_keyword = [
         "question": "Faculty of Pharmacy at the University of Ibadan",
         "keywords": [
             "faculty of pharmacy",
-            "faculty",
+            "faculties",
             "pharmacy department",
             "clinical pharmacy",
             "pharmacy administration",
@@ -231,7 +231,7 @@ qa_keyword = [
         "keywords": [
             "faculty of science",
             "university of ibadan science",
-            "faculty",
+            "faculties",
             "science department",
             "animal science",
             "botany",
@@ -259,7 +259,7 @@ qa_keyword = [
             "faculty of social sciences",
             "university of ibadan social sciences"
             "social science",
-            "faculty",
+            "faculties",
             "social sciences department",
             "demography and social statistics",
             "sociology department"
@@ -278,7 +278,7 @@ qa_keyword = [
             "faculty of veterinary medicine"
             "university of ibadan veterinary medicine",
             "veterinary deparment",
-            "faculty",
+            "faculties",
             "veterinary sciences",
             "vet med"
         ],
@@ -292,7 +292,7 @@ qa_keyword = [
             "faculty of law",
             "law department",
             "university of ibadan law",
-            "faculty",
+            "faculties",
             "jurisprudence",
             "laws and administrative Law",
             "laws and criminal Law",
@@ -308,7 +308,7 @@ qa_keyword = [
         "keywords": [
             "faculty of technology"
             "technology department",
-            "faculty",
+            "faculties",
             "university of ibadan technology",
             "engineering department",
             "chemical engineering",
@@ -331,7 +331,7 @@ qa_keyword = [
         "keywords": [
             "faculty of environmental design",
             "university of ibadan environmental design",
-            "faculty",
+            "faculties",
             "environmental management",
             "environmental design and management department",
             "quantity surveying"
@@ -346,7 +346,7 @@ qa_keyword = [
     {
         "question": "Faculty of Economics and Management Sciences at the University of Ibadan",
         "keywords": [
-            "faculty",
+            "faculties",
             "faculty of economics and management sciences",
             "university of ibadan economics and management sciences",
             "economics and management sciences deparment",
@@ -388,7 +388,7 @@ qa_keyword = [
             "linguistics department",
             "cultural",
             "communication and language arts"
-            "faculty"
+            "faculties"
         ],
         "answer": [
             "African Languages",
@@ -408,7 +408,7 @@ qa_keyword = [
             "faculty of clinical sciences"
             "health science",
             "nursing science",
-            "faculty"
+            "faculties"
         ],
         "answer": [
             "Anaesthesiology",
@@ -429,7 +429,7 @@ qa_keyword = [
             "faculty of science and technology"
             "faculty of science",
             "science and technology department",
-            "faculty"
+            "faculties"
         ],
         "answer": [
             "Agronomy",
