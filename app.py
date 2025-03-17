@@ -79,4 +79,4 @@ def search_question(q: str):
         # Join all match outputs with two newlines between each block.
         result = "\n\n".join(present_match_plain(m) for m in matches)
         return result
-    return "No matching answers found"
+    return ""
