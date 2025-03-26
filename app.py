@@ -116,4 +116,5 @@ def generate(q: str = Query(..., description="Query string to search for relevan
     return {"final_answer": final_answer}
 
 if __name__ == "__main__":
-    app.run()
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run("main:app", host="0.0.0.0", port=port, log_level="info")
