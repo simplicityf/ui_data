@@ -5,5 +5,5 @@ openai
 python-dotenv
 sentence_transformers
 numpy
-faiss
+faiss-cpu
 requests
