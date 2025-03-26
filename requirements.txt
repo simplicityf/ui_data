@@ -3,3 +3,7 @@ uvicorn
 fastapi[all]
 openai
 python-dotenv
+sentence_transformers
+numpy
+faiss
+requests
