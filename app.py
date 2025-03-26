@@ -1,82 +1,108 @@
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import PlainTextResponse
-from difflib import SequenceMatcher
-import keyword_1  # This file contains qa_keyword
+import os
+from fastapi import FastAPI, Query
+import uvicorn
+import csv
+from sentence_transformers import SentenceTransformer
+import numpy as np
+import faiss
+import requests
+from dotenv import load_dotenv
+
+load_dotenv()
+deepseek_api_key = os.getenv("DEEPSEEK_API_KEY")
 
 app = FastAPI()
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# Load the SentenceTransformer model
+model = SentenceTransformer("all-MiniLM-L6-v2")
 
-# Load the keyword-based data from your file
-qa_data = keyword_1.qa_keyword
+# Global lists to store original questions and combined texts
+questions = []
+combined_texts = []
+embeddings_list = []
 
-def present_answer_plain(answer):
-    """
-    Converts an answer (which can be a list or dict) to a plain text string
-    that contains only its values (without any keys, braces, or brackets).
-    """
-    if isinstance(answer, list):
-        parts = []
-        for a in answer:
-            if isinstance(a, dict):
-                inner_parts = []
-                for v in a.values():
-                    if isinstance(v, list):
-                        inner_parts.append(", ".join(str(x) for x in v))
-                    else:
-                        inner_parts.append(str(v))
-                parts.append("\n".join(inner_parts))
-            else:
-                parts.append(str(a))
-        return "\n".join(parts)
-    elif isinstance(answer, dict):
-        inner_parts = []
-        for v in answer.values():
-            if isinstance(v, list):
-                inner_parts.append(", ".join(str(x) for x in v))
-            else:
-                inner_parts.append(str(v))
-        return "\n".join(inner_parts)
+def combine_fields(row):
+    # Combine question, keywords, and answer into a single string
+    question = row.get("question", "").strip()
+    keywords = row.get("keywords", "").strip()
+    answer = row.get("answer", "").strip()
+    return f"{question} | Keywords: {keywords} | Answer: {answer}"
+
+# Load data from CSV file and generate embeddings for each record
+with open("qa_keyword.csv", newline='', encoding='utf-8') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        q = row["question"].strip()
+        questions.append(q)
+        
+        combined = combine_fields(row)
+        combined_texts.append(combined)
+        
+        emb = model.encode(combined)
+        embeddings_list.append(emb)
+
+# Convert embeddings to a NumPy array of type float32 and build FAISS index
+embeddings = np.array(embeddings_list, dtype='float32')
+d = embeddings.shape[1]
+index = faiss.IndexFlatL2(d)
+index.add(embeddings)
+
+def generate_final_answer(user_query, retrieved_context):
+    # Combine the query and retrieved context into a prompt
+    prompt = (
+        f"User Query: {user_query}\n\n"
+        f"Relevant Information:\n{retrieved_context}\n\n"
+        "Generate a comprehensive and well-structured answer."
+    )
+    
+    headers = {
+        "Authorization": f"Bearer {deepseek_api_key}",
+        "Content-Type": "application/json"
+    }
+    
+    data = {
+        "model": "deepseek-chat",
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0.7,
+        "max_tokens": 250
+    }
+    
+    response = requests.post("https://api.deepseek.com/v1/chat/completions", headers=headers, json=data)
+    response.raise_for_status()  # Raise an error if the request failed
+    
+    # Log the raw response for debugging
+    resp_json = response.json()
+    print("DeepSeek API Response:", resp_json)
+    
+    # Try to extract the generated text.
+    if "choices" in resp_json:
+        # Assuming response structure similar to OpenAI Chat API:
+        final_text = resp_json["choices"][0]["message"]["content"]
+    elif "result" in resp_json:
+        final_text = resp_json["result"]
     else:
-        return str(answer)
+        final_text = "No text generated."
+        
+    return final_text
 
-def search_all_matches(user_query):
-    """
-    Searches qa_data for entries where at least one keyword phrase appears in the user query.
-    Each match is scored based on the count of keyword matches (weighted) plus a similarity ratio.
-    """
-    query_lower = user_query.lower()
-    matches = []
-    for item in qa_data:
-        keyword_match_count = sum(1 for kw in item["keywords"] if kw.lower() in query_lower)
-        if keyword_match_count > 0:
-            similarity = SequenceMatcher(None, query_lower, item["question"].lower()).ratio()
-            score = keyword_match_count * 2 + similarity
-            matches.append((item, score))
-    matches.sort(key=lambda x: x[1], reverse=True)
-    return [match[0] for match in matches]
+@app.get("/generate")
+def generate(q: str = Query(..., description="Query string to search for relevant information")):
+    # Generate embedding for the incoming query
+    query_emb = model.encode([q])
+    query_emb = np.array(query_emb, dtype='float32')
+    
+    # Retrieve top k records from FAISS index
+    k = 3
+    distances, indices = index.search(query_emb, k)
+    
+    # Concatenate the retrieved combined texts to form the context
+    retrieved_context = "\n\n".join([combined_texts[i] for i in indices[0]])
+    
+    # Generate final answer using DeepSeek API
+    final_answer = generate_final_answer(q, retrieved_context)
+    
+    # Return only the final answer
+    return {"final_answer": final_answer}
 
-def present_match_plain(match):
-    """
-    Returns a plain text string that includes the question (first line)
-    and the answer (next line(s)) without any keys.
-    """
-    question_text = match["question"].strip()
-    answer_text = present_answer_plain(match["answer"]).strip()
-    return f"{question_text}\n{answer_text}"
-
-@app.get("/search", response_class=PlainTextResponse)
-def search_question(q: str):
-    matches = search_all_matches(q)
-    if matches:
-        # Join all match outputs with two newlines between each block.
-        result = "\n\n".join(present_match_plain(m) for m in matches)
-        return result
-    return ""
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000)

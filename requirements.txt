@@ -1,3 +1,5 @@
 fastapi
 uvicorn
 fastapi[all]
+openai
+python-dotenv
