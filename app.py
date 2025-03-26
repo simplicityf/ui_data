@@ -1,5 +1,6 @@
 import os
 from fastapi import FastAPI, Query
+from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 import csv
 from sentence_transformers import SentenceTransformer
@@ -8,10 +9,20 @@ import faiss
 import requests
 from dotenv import load_dotenv
 
+# Load environment variables from .env file
 load_dotenv()
 deepseek_api_key = os.getenv("DEEPSEEK_API_KEY")
 
 app = FastAPI()
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Load the SentenceTransformer model
 model = SentenceTransformer("all-MiniLM-L6-v2")
@@ -105,4 +116,4 @@ def generate(q: str = Query(..., description="Query string to search for relevan
     return {"final_answer": final_answer}
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    app.run()
