@@ -5,6 +5,7 @@ from sentence_transformers import SentenceTransformer
 import numpy as np
 import faiss
 import requests
+from mangum import Mangum
 # from dotenv import load_dotenv
 
 # Load environment variables from .env file
@@ -112,3 +113,5 @@ def generate(q: str = Query(..., description="Query string to search for relevan
     
     # Return only the final answer
     return {"final_answer": final_answer}
+
+handler = Mangum(app)
