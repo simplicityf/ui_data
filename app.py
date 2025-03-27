@@ -1,17 +1,15 @@
-import os
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
-import uvicorn
 import csv
 from sentence_transformers import SentenceTransformer
 import numpy as np
 import faiss
 import requests
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 # Load environment variables from .env file
-load_dotenv()
-deepseek_api_key = os.getenv("DEEPSEEK_API_KEY")
+# load_dotenv()
+deepseek_api_key = "sk-b01b1ad78d764926b6655d8682890e22"
 
 app = FastAPI()
 
